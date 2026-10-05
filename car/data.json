@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 68,
-  "range_km": 348.0,
-  "usable": 68
+  "level": 66,
+  "range_km": 334.0,
+  "usable": 66
  },
  "car_status": "online",
  "charging": {
@@ -28,29 +28,29 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.0,
-  "on": false,
+  "inside_c": 21.3,
+  "on": true,
   "outside_c": 23.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T17:56:57+10:00",
- "last_checked": "2026-10-05T17:56:55+10:00",
+ "data_as_of": "2026-10-05T18:26:57+10:00",
+ "last_checked": "2026-10-05T18:26:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T17:56:55+10:00",
+ "last_updated": "2026-10-05T18:26:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": false,
-  "destination": null,
-  "energy_at_arrival_pct": null,
-  "km_to_arrival": null,
-  "minutes_to_arrival": null
+  "active": true,
+  "destination": "19 Chambery Rd",
+  "energy_at_arrival_pct": 65,
+  "km_to_arrival": 5.0,
+  "minutes_to_arrival": 8.0
  },
- "odometer_km": 42422,
- "polling": "every 30 min while idle; no polling while asleep",
+ "odometer_km": 42438,
+ "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
   "update_version": null,
@@ -59,7 +59,7 @@
  "status": {
   "boot_open": false,
   "charge_port_open": false,
-  "climate_on": false,
+  "climate_on": true,
   "dashcam_on": true,
   "dashcam_state": "Recording",
   "doors": {
@@ -71,8 +71,8 @@
   "frunk_open": false,
   "locked": true,
   "preconditioning": false,
-  "sentry_mode": true,
-  "user_present": false,
+  "sentry_mode": false,
+  "user_present": true,
   "valet_mode": false,
   "windows": {
    "fd": false,
@@ -85,8 +85,8 @@
  "tyres_as_of": null,
  "tyres_psi": {
   "fl": 44.2,
-  "fr": 43.9,
-  "rl": 43.5,
+  "fr": 44.2,
+  "rl": 43.9,
   "rr": 44.2
  },
  "tyres_recommended_psi": {
