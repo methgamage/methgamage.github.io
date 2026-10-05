@@ -1,0 +1,16 @@
+# Guard: this public repo must never contain Tesla secrets or box-side tooling.
+*.pem
+!/.well-known/appspecific/com.tesla.3p.public-key.pem
+*.key
+tokens*.json
+*token*.txt
+partner*.json
+*_state.json
+state.txt
+.env*
+*.py
+*.sh
+*.log
+*.tmp
+tesla-control
+bin/
