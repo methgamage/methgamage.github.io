@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 52,
-  "range_km": 263.0,
-  "usable": 52
+  "level": 51,
+  "range_km": 258.0,
+  "usable": 51
  },
  "car_status": "online",
  "charging": {
@@ -30,26 +30,26 @@
  "climate": {
   "inside_c": 21.0,
   "on": true,
-  "outside_c": 22.0,
+  "outside_c": 22.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T20:36:57+10:00",
- "last_checked": "2026-10-05T20:36:56+10:00",
+ "data_as_of": "2026-10-05T20:46:58+10:00",
+ "last_checked": "2026-10-05T20:46:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T20:36:56+10:00",
+ "last_updated": "2026-10-05T20:46:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "10 Botanica Pl",
-  "energy_at_arrival_pct": 51,
-  "km_to_arrival": 0.9,
-  "minutes_to_arrival": 1.0
+  "destination": "Home",
+  "energy_at_arrival_pct": 49,
+  "km_to_arrival": 12.4,
+  "minutes_to_arrival": 14.0
  },
- "odometer_km": 42513,
+ "odometer_km": 42519,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -85,7 +85,7 @@
  "tyres_as_of": null,
  "tyres_psi": {
   "fl": 43.9,
-  "fr": 43.9,
+  "fr": 43.5,
   "rl": 43.9,
   "rr": 43.9
  },
