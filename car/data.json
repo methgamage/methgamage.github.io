@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 64,
-  "range_km": 328.0,
-  "usable": 64
+  "level": 63,
+  "range_km": 323.0,
+  "usable": 63
  },
  "car_status": "online",
  "charging": {
@@ -28,28 +28,28 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.7,
+  "inside_c": 21.0,
   "on": true,
-  "outside_c": 23.5,
+  "outside_c": 23.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T18:36:57+10:00",
- "last_checked": "2026-10-05T18:36:56+10:00",
+ "data_as_of": "2026-10-05T18:46:57+10:00",
+ "last_checked": "2026-10-05T18:46:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T18:36:56+10:00",
+ "last_updated": "2026-10-05T18:46:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "1264 Anzac Ave",
-  "energy_at_arrival_pct": 64,
-  "km_to_arrival": 2.5,
-  "minutes_to_arrival": 4.0
+  "destination": "16 N Lakes Dr",
+  "energy_at_arrival_pct": 63,
+  "km_to_arrival": 0.5,
+  "minutes_to_arrival": 1.0
  },
- "odometer_km": 42444,
+ "odometer_km": 42451,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -60,8 +60,8 @@
   "boot_open": false,
   "charge_port_open": false,
   "climate_on": true,
-  "dashcam_on": true,
-  "dashcam_state": "Recording",
+  "dashcam_on": false,
+  "dashcam_state": "Streaming",
   "doors": {
    "df": false,
    "dr": false,
@@ -84,8 +84,8 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 44.2,
-  "fr": 43.9,
+  "fl": 43.9,
+  "fr": 43.5,
   "rl": 43.9,
   "rr": 44.2
  },
