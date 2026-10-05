@@ -1,4 +1,5 @@
 {
+ "alerts": [],
  "battery": {
   "level": 75,
   "range_km": 381.0,
@@ -6,10 +7,10 @@
  },
  "car_status": "online",
  "charging": {
-  "amps": 0,
+  "amps": 4,
   "amps_requested": 32,
   "departure_time": "16:00",
-  "energy_added_kwh": 43.38,
+  "energy_added_kwh": 43.32,
   "finish_time": null,
   "limit": 64,
   "minutes_to_full": 0,
@@ -17,36 +18,68 @@
   "off_peak_times": "all_week",
   "phases": 1,
   "plugged_in": true,
-  "power_kw": 0,
+  "power_kw": 1,
   "precondition_enabled": true,
   "precondition_times": "weekdays",
   "scheduled_mode": "DepartBy",
   "scheduled_pending": false,
   "scheduled_start": null,
   "state": "Complete",
-  "volts": 2
+  "volts": 238
  },
  "climate": {
-  "inside_c": 24.3,
-  "on": false,
+  "inside_c": 18.3,
+  "on": true,
   "outside_c": 28.5,
-  "preconditioning": false,
+  "preconditioning": true,
   "set_c": 18.0,
   "set_passenger_c": 18.0
  },
- "data_as_of": "2026-10-05T15:13:42+10:00",
- "last_checked": "2026-10-05T15:13:41+10:00",
+ "data_as_of": "2026-10-05T15:35:53+10:00",
+ "last_checked": "2026-10-05T15:35:52+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T15:13:41+10:00",
+ "last_updated": "2026-10-05T15:35:52+10:00",
  "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
+ "navigation": {
+  "active": false,
+  "destination": null,
+  "energy_at_arrival_pct": null,
+  "km_to_arrival": null,
+  "minutes_to_arrival": null
+ },
  "odometer_km": 42394,
- "polling": "every 30 min while idle; no polling while asleep",
+ "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
   "update_version": null,
   "version": "2026.20.10"
+ },
+ "status": {
+  "boot_open": false,
+  "charge_port_open": true,
+  "climate_on": true,
+  "dashcam_on": true,
+  "dashcam_state": "Recording",
+  "doors": {
+   "df": false,
+   "dr": false,
+   "pf": false,
+   "pr": false
+  },
+  "frunk_open": false,
+  "locked": true,
+  "preconditioning": true,
+  "sentry_mode": false,
+  "user_present": false,
+  "valet_mode": false,
+  "windows": {
+   "fd": false,
+   "fp": false,
+   "rd": false,
+   "rp": false
+  }
  },
  "tyre_warnings": [],
  "tyres_as_of": "2026-10-04T19:26:19+10:00",
