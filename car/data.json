@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 61,
-  "range_km": 311.0,
-  "usable": 61
+  "level": 60,
+  "range_km": 305.0,
+  "usable": 60
  },
  "car_status": "online",
  "charging": {
@@ -30,26 +30,26 @@
  "climate": {
   "inside_c": 21.0,
   "on": true,
-  "outside_c": 23.0,
+  "outside_c": 23.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T19:06:57+10:00",
- "last_checked": "2026-10-05T19:06:56+10:00",
+ "data_as_of": "2026-10-05T19:16:57+10:00",
+ "last_checked": "2026-10-05T19:16:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T19:06:56+10:00",
+ "last_updated": "2026-10-05T19:16:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "North Rd at Brighton North, stop 62",
-  "energy_at_arrival_pct": 61,
-  "km_to_arrival": 0.8,
-  "minutes_to_arrival": 1.0
+  "destination": "Hungry Jack's Burgers Deagon",
+  "energy_at_arrival_pct": 60,
+  "km_to_arrival": 0.0,
+  "minutes_to_arrival": 0.0
  },
- "odometer_km": 42464,
+ "odometer_km": 42472,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -87,7 +87,7 @@
   "fl": 44.2,
   "fr": 44.2,
   "rl": 44.2,
-  "rr": 44.2
+  "rr": 44.6
  },
  "tyres_recommended_psi": {
   "front": 42.0,
