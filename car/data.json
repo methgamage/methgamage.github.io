@@ -2,7 +2,7 @@
  "alerts": [],
  "battery": {
   "level": 63,
-  "range_km": 323.0,
+  "range_km": 320.0,
   "usable": 63
  },
  "car_status": "online",
@@ -28,28 +28,28 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.0,
+  "inside_c": 21.1,
   "on": true,
-  "outside_c": 23.0,
+  "outside_c": 23.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T18:46:57+10:00",
- "last_checked": "2026-10-05T18:46:56+10:00",
+ "data_as_of": "2026-10-05T18:56:57+10:00",
+ "last_checked": "2026-10-05T18:56:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T18:46:56+10:00",
+ "last_updated": "2026-10-05T18:56:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "16 N Lakes Dr",
-  "energy_at_arrival_pct": 63,
-  "km_to_arrival": 0.5,
-  "minutes_to_arrival": 1.0
+  "destination": "North Rd at Brighton North, stop 62",
+  "energy_at_arrival_pct": 61,
+  "km_to_arrival": 12.5,
+  "minutes_to_arrival": 12.0
  },
- "odometer_km": 42451,
+ "odometer_km": 42453,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -60,8 +60,8 @@
   "boot_open": false,
   "charge_port_open": false,
   "climate_on": true,
-  "dashcam_on": false,
-  "dashcam_state": "Streaming",
+  "dashcam_on": true,
+  "dashcam_state": "Recording",
   "doors": {
    "df": false,
    "dr": false,
@@ -85,9 +85,9 @@
  "tyres_as_of": null,
  "tyres_psi": {
   "fl": 43.9,
-  "fr": 43.5,
-  "rl": 43.9,
-  "rr": 44.2
+  "fr": 43.9,
+  "rl": 43.5,
+  "rr": 43.9
  },
  "tyres_recommended_psi": {
   "front": 42.0,
