@@ -28,17 +28,17 @@
   "volts": 238
  },
  "climate": {
-  "inside_c": 18.1,
+  "inside_c": 17.9,
   "on": true,
   "outside_c": 28.5,
   "preconditioning": true,
   "set_c": 18.0,
   "set_passenger_c": 18.0
  },
- "data_as_of": "2026-10-05T15:36:26+10:00",
- "last_checked": "2026-10-05T15:36:25+10:00",
+ "data_as_of": "2026-10-05T15:46:27+10:00",
+ "last_checked": "2026-10-05T15:46:26+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T15:36:25+10:00",
+ "last_updated": "2026-10-05T15:46:26+10:00",
  "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
