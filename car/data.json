@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 72,
-  "range_km": 365.0,
-  "usable": 72
+  "level": 71,
+  "range_km": 362.0,
+  "usable": 71
  },
  "car_status": "online",
  "charging": {
@@ -28,28 +28,28 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 20.9,
+  "inside_c": 21.0,
   "on": true,
   "outside_c": 24.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T17:06:57+10:00",
- "last_checked": "2026-10-05T17:06:55+10:00",
+ "data_as_of": "2026-10-05T17:16:56+10:00",
+ "last_checked": "2026-10-05T17:16:55+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T17:06:55+10:00",
+ "last_updated": "2026-10-05T17:16:55+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": true,
-  "destination": "141 Merthyr Rd",
-  "energy_at_arrival_pct": 72,
-  "km_to_arrival": 1.3,
-  "minutes_to_arrival": 3.0
+  "active": false,
+  "destination": null,
+  "energy_at_arrival_pct": 71,
+  "km_to_arrival": null,
+  "minutes_to_arrival": null
  },
- "odometer_km": 42407,
+ "odometer_km": 42410,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -84,10 +84,10 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 44.2,
+  "fl": 43.9,
   "fr": 43.9,
   "rl": 43.5,
-  "rr": 43.9
+  "rr": 44.2
  },
  "tyres_recommended_psi": {
   "front": 42.0,
