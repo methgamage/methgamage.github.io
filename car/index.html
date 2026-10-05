@@ -99,7 +99,7 @@ function render(){
   var charging=st==="Charging";
   dl("charging",[["State",v(STATE_TXT[st]||st)],["Plugged in",yn(c.plugged_in)],
     ["Power",v(c.power_kw," kW")],["Current",v(c.amps," A")+(c.amps_requested!=null?" <span style='color:var(--mut)'>/ "+esc(c.amps_requested)+" A set</span>":"")],
-    ["Voltage",v(c.volts," V")],["Energy added",v(c.energy_added_kwh," kWh")],
+    ["Voltage",(c.volts!=null&&c.volts>=50)?v(c.volts," V"):"–"],["Energy added",v(c.energy_added_kwh," kWh")],
     ["Time to full",charging&&c.minutes_to_full!=null?(c.minutes_to_full>=60?Math.floor(c.minutes_to_full/60)+" h "+(c.minutes_to_full%60)+" min":c.minutes_to_full+" min"):"–"],
     ["Should finish",c.finish_time?esc(fmtT.format(new Date(c.finish_time)))+" AEST":(st==="Complete"?"Done":"–")]]);
   $("charge-note").textContent=(st==="Complete"&&c.power_kw>0)?"Small draw while complete is the car using wall power (e.g. climate).":"";
