@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 58,
-  "range_km": 295.0,
-  "usable": 58
+  "level": 56,
+  "range_km": 286.0,
+  "usable": 56
  },
  "car_status": "online",
  "charging": {
@@ -28,17 +28,17 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.2,
+  "inside_c": 21.0,
   "on": true,
-  "outside_c": 23.5,
+  "outside_c": 23.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T19:36:57+10:00",
- "last_checked": "2026-10-05T19:36:56+10:00",
+ "data_as_of": "2026-10-05T19:46:57+10:00",
+ "last_checked": "2026-10-05T19:46:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T19:36:56+10:00",
+ "last_updated": "2026-10-05T19:46:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
@@ -46,10 +46,10 @@
   "active": true,
   "destination": "13 Yarraman St",
   "energy_at_arrival_pct": 56,
-  "km_to_arrival": 8.1,
-  "minutes_to_arrival": 10.0
+  "km_to_arrival": 0.0,
+  "minutes_to_arrival": 0.0
  },
- "odometer_km": 42480,
+ "odometer_km": 42488,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -84,10 +84,10 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 43.9,
+  "fl": 44.2,
   "fr": 43.5,
-  "rl": 43.9,
-  "rr": 43.9
+  "rl": 43.5,
+  "rr": 44.2
  },
  "tyres_recommended_psi": {
   "front": 42.0,
