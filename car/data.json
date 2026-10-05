@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 60,
-  "range_km": 305.0,
-  "usable": 60
+  "level": 59,
+  "range_km": 301.0,
+  "usable": 59
  },
  "car_status": "online",
  "charging": {
@@ -35,21 +35,21 @@
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T19:16:57+10:00",
- "last_checked": "2026-10-05T19:16:56+10:00",
+ "data_as_of": "2026-10-05T19:26:57+10:00",
+ "last_checked": "2026-10-05T19:26:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T19:16:56+10:00",
+ "last_updated": "2026-10-05T19:26:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "Hungry Jack's Burgers Deagon",
-  "energy_at_arrival_pct": 60,
-  "km_to_arrival": 0.0,
-  "minutes_to_arrival": 0.0
+  "destination": "5 Boroughs Carseldine",
+  "energy_at_arrival_pct": 59,
+  "km_to_arrival": 2.5,
+  "minutes_to_arrival": 3.0
  },
- "odometer_km": 42472,
+ "odometer_km": 42476,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -86,7 +86,7 @@
  "tyres_psi": {
   "fl": 44.2,
   "fr": 44.2,
-  "rl": 44.2,
+  "rl": 43.5,
   "rr": 44.6
  },
  "tyres_recommended_psi": {
