@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 47,
-  "range_km": 240.0,
-  "usable": 47
+  "level": 46,
+  "range_km": 235.0,
+  "usable": 46
  },
  "car_status": "online",
  "charging": {
@@ -35,21 +35,21 @@
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T21:26:57+10:00",
- "last_checked": "2026-10-05T21:26:56+10:00",
+ "data_as_of": "2026-10-05T21:36:57+10:00",
+ "last_checked": "2026-10-05T21:36:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T21:26:56+10:00",
+ "last_updated": "2026-10-05T21:36:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "24 Arthur St",
-  "energy_at_arrival_pct": 47,
-  "km_to_arrival": 2.3,
-  "minutes_to_arrival": 4.0
+  "destination": "Home",
+  "energy_at_arrival_pct": 42,
+  "km_to_arrival": 22.4,
+  "minutes_to_arrival": 25.0
  },
- "odometer_km": 42539,
+ "odometer_km": 42545,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -85,7 +85,7 @@
  "tyres_as_of": null,
  "tyres_psi": {
   "fl": 43.9,
-  "fr": 43.9,
+  "fr": 43.5,
   "rl": 43.5,
   "rr": 43.9
  },
