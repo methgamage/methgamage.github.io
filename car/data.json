@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 56,
-  "range_km": 286.0,
-  "usable": 56
+  "level": 55,
+  "range_km": 281.0,
+  "usable": 55
  },
  "car_status": "online",
  "charging": {
@@ -35,21 +35,21 @@
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T19:46:57+10:00",
- "last_checked": "2026-10-05T19:46:56+10:00",
+ "data_as_of": "2026-10-05T19:56:57+10:00",
+ "last_checked": "2026-10-05T19:56:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T19:46:56+10:00",
+ "last_updated": "2026-10-05T19:56:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "13 Yarraman St",
-  "energy_at_arrival_pct": 56,
-  "km_to_arrival": 0.0,
-  "minutes_to_arrival": 0.0
+  "destination": "1028 Samford Rd",
+  "energy_at_arrival_pct": 55,
+  "km_to_arrival": 0.1,
+  "minutes_to_arrival": 1.0
  },
- "odometer_km": 42488,
+ "odometer_km": 42494,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -85,7 +85,7 @@
  "tyres_as_of": null,
  "tyres_psi": {
   "fl": 44.2,
-  "fr": 43.5,
+  "fr": 44.2,
   "rl": 43.5,
   "rr": 44.2
  },
