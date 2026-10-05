@@ -5,7 +5,7 @@
   "range_km": 314.0,
   "usable": 62
  },
- "car_status": "offline",
+ "car_status": "online",
  "charging": {
   "amps": 0,
   "amps_requested": 16,
@@ -28,17 +28,17 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.5,
+  "inside_c": 26.2,
   "on": false,
-  "outside_c": 22.5,
+  "outside_c": 25.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-06T08:02:53+10:00",
- "last_checked": "2026-10-06T08:42:51+10:00",
- "last_seen_online": "2026-10-06T08:02:51+10:00",
- "last_updated": "2026-10-06T08:02:51+10:00",
+ "data_as_of": "2026-10-06T09:12:52+10:00",
+ "last_checked": "2026-10-06T09:12:51+10:00",
+ "last_seen_online": null,
+ "last_updated": "2026-10-06T09:12:51+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
