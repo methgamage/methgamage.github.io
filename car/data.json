@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 50,
-  "range_km": 255.0,
-  "usable": 50
+  "level": 47,
+  "range_km": 240.0,
+  "usable": 47
  },
  "car_status": "online",
  "charging": {
@@ -28,29 +28,29 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.0,
+  "inside_c": 25.5,
   "on": false,
-  "outside_c": 23.0,
+  "outside_c": 22.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T20:56:57+10:00",
- "last_checked": "2026-10-05T20:56:56+10:00",
+ "data_as_of": "2026-10-05T21:26:57+10:00",
+ "last_checked": "2026-10-05T21:26:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T20:56:56+10:00",
+ "last_updated": "2026-10-05T21:26:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": false,
-  "destination": null,
-  "energy_at_arrival_pct": null,
-  "km_to_arrival": null,
-  "minutes_to_arrival": null
+  "active": true,
+  "destination": "24 Arthur St",
+  "energy_at_arrival_pct": 47,
+  "km_to_arrival": 2.3,
+  "minutes_to_arrival": 4.0
  },
- "odometer_km": 42523,
- "polling": "every 30 min while idle; no polling while asleep",
+ "odometer_km": 42539,
+ "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
   "update_version": null,
@@ -71,8 +71,8 @@
   "frunk_open": false,
   "locked": true,
   "preconditioning": false,
-  "sentry_mode": true,
-  "user_present": false,
+  "sentry_mode": false,
+  "user_present": true,
   "valet_mode": false,
   "windows": {
    "fd": false,
@@ -82,11 +82,11 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": "2026-10-05T20:56:31+10:00",
+ "tyres_as_of": null,
  "tyres_psi": {
   "fl": 43.9,
-  "fr": 43.5,
-  "rl": 43.9,
+  "fr": 43.9,
+  "rl": 43.5,
   "rr": 43.9
  },
  "tyres_recommended_psi": {
