@@ -1,56 +1,56 @@
 {
  "alerts": [],
  "battery": {
-  "level": 73,
-  "range_km": 374.0,
-  "usable": 73
+  "level": 72,
+  "range_km": 365.0,
+  "usable": 72
  },
  "car_status": "online",
  "charging": {
   "amps": 0,
   "amps_requested": 16,
-  "departure_time": "07:30",
+  "departure_time": null,
   "energy_added_kwh": 43.32,
   "finish_time": null,
   "limit": 64,
   "minutes_to_full": 0,
-  "off_peak_enabled": true,
+  "off_peak_enabled": false,
   "off_peak_times": "all_week",
   "phases": null,
   "plugged_in": false,
   "power_kw": 0,
-  "precondition_enabled": true,
+  "precondition_enabled": false,
   "precondition_times": "weekdays",
-  "scheduled_mode": "DepartBy",
+  "scheduled_mode": "Off",
   "scheduled_pending": false,
   "scheduled_start": null,
   "state": "Disconnected",
   "volts": 2
  },
  "climate": {
-  "inside_c": 22.7,
-  "on": false,
-  "outside_c": 25.5,
+  "inside_c": 20.9,
+  "on": true,
+  "outside_c": 24.0,
   "preconditioning": false,
-  "set_c": 19.0,
-  "set_passenger_c": 19.0
+  "set_c": 21.0,
+  "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T16:36:56+10:00",
- "last_checked": "2026-10-05T16:36:55+10:00",
+ "data_as_of": "2026-10-05T17:06:57+10:00",
+ "last_checked": "2026-10-05T17:06:55+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T16:36:55+10:00",
- "location": "At home",
+ "last_updated": "2026-10-05T17:06:55+10:00",
+ "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": false,
-  "destination": null,
-  "energy_at_arrival_pct": null,
-  "km_to_arrival": null,
-  "minutes_to_arrival": null
+  "active": true,
+  "destination": "141 Merthyr Rd",
+  "energy_at_arrival_pct": 72,
+  "km_to_arrival": 1.3,
+  "minutes_to_arrival": 3.0
  },
- "odometer_km": 42399,
- "polling": "every 30 min while idle; no polling while asleep",
+ "odometer_km": 42407,
+ "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
   "update_version": null,
@@ -59,7 +59,7 @@
  "status": {
   "boot_open": false,
   "charge_port_open": false,
-  "climate_on": false,
+  "climate_on": true,
   "dashcam_on": true,
   "dashcam_state": "Recording",
   "doors": {
@@ -72,7 +72,7 @@
   "locked": true,
   "preconditioning": false,
   "sentry_mode": false,
-  "user_present": false,
+  "user_present": true,
   "valet_mode": false,
   "windows": {
    "fd": false,
@@ -82,10 +82,10 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": "2026-10-05T16:34:46+10:00",
+ "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 43.9,
-  "fr": 43.5,
+  "fl": 44.2,
+  "fr": 43.9,
   "rl": 43.5,
   "rr": 43.9
  },
