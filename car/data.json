@@ -1,9 +1,12 @@
 {
- "alerts": [],
+ "alerts": [
+  "Front left window open",
+  "Front right window open"
+ ],
  "battery": {
-  "level": 55,
-  "range_km": 279.0,
-  "usable": 55
+  "level": 54,
+  "range_km": 275.0,
+  "usable": 54
  },
  "car_status": "online",
  "charging": {
@@ -28,28 +31,28 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 23.6,
-  "on": false,
-  "outside_c": 23.0,
+  "inside_c": 21.1,
+  "on": true,
+  "outside_c": 22.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T20:06:58+10:00",
- "last_checked": "2026-10-05T20:06:56+10:00",
+ "data_as_of": "2026-10-05T20:16:58+10:00",
+ "last_checked": "2026-10-05T20:16:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T20:06:56+10:00",
+ "last_updated": "2026-10-05T20:16:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "12 Cabragh St",
-  "energy_at_arrival_pct": 54,
-  "km_to_arrival": 2.5,
-  "minutes_to_arrival": 4.0
+  "destination": "Good Asian",
+  "energy_at_arrival_pct": 53,
+  "km_to_arrival": 4.8,
+  "minutes_to_arrival": 6.0
  },
- "odometer_km": 42496,
+ "odometer_km": 42502,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -59,9 +62,9 @@
  "status": {
   "boot_open": false,
   "charge_port_open": false,
-  "climate_on": false,
-  "dashcam_on": true,
-  "dashcam_state": "Recording",
+  "climate_on": true,
+  "dashcam_on": false,
+  "dashcam_state": "Streaming",
   "doors": {
    "df": false,
    "dr": false,
@@ -75,8 +78,8 @@
   "user_present": true,
   "valet_mode": false,
   "windows": {
-   "fd": false,
-   "fp": false,
+   "fd": true,
+   "fp": true,
    "rd": false,
    "rp": false
   }
@@ -85,9 +88,9 @@
  "tyres_as_of": null,
  "tyres_psi": {
   "fl": 43.9,
-  "fr": 43.5,
+  "fr": 43.9,
   "rl": 43.5,
-  "rr": 43.9
+  "rr": 44.2
  },
  "tyres_recommended_psi": {
   "front": 42.0,
