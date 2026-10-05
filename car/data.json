@@ -5,7 +5,7 @@
   "range_km": 216.0,
   "usable": 42
  },
- "car_status": "online",
+ "car_status": "offline",
  "charging": {
   "amps": 0,
   "amps_requested": 32,
@@ -36,8 +36,8 @@
   "set_passenger_c": 21.0
  },
  "data_as_of": "2026-10-05T22:06:57+10:00",
- "last_checked": "2026-10-05T22:06:56+10:00",
- "last_seen_online": null,
+ "last_checked": "2026-10-05T22:26:56+10:00",
+ "last_seen_online": "2026-10-05T22:16:56+10:00",
  "last_updated": "2026-10-05T22:06:56+10:00",
  "location": "At home",
  "model": "Model Y",
