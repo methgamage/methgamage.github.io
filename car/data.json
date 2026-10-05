@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 59,
-  "range_km": 301.0,
-  "usable": 59
+  "level": 58,
+  "range_km": 295.0,
+  "usable": 58
  },
  "car_status": "online",
  "charging": {
@@ -28,28 +28,28 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.0,
+  "inside_c": 21.2,
   "on": true,
   "outside_c": 23.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T19:26:57+10:00",
- "last_checked": "2026-10-05T19:26:56+10:00",
+ "data_as_of": "2026-10-05T19:36:57+10:00",
+ "last_checked": "2026-10-05T19:36:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T19:26:56+10:00",
+ "last_updated": "2026-10-05T19:36:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "5 Boroughs Carseldine",
-  "energy_at_arrival_pct": 59,
-  "km_to_arrival": 2.5,
-  "minutes_to_arrival": 3.0
+  "destination": "13 Yarraman St",
+  "energy_at_arrival_pct": 56,
+  "km_to_arrival": 8.1,
+  "minutes_to_arrival": 10.0
  },
- "odometer_km": 42476,
+ "odometer_km": 42480,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -84,10 +84,10 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 44.2,
-  "fr": 44.2,
-  "rl": 43.5,
-  "rr": 44.6
+  "fl": 43.9,
+  "fr": 43.5,
+  "rl": 43.9,
+  "rr": 43.9
  },
  "tyres_recommended_psi": {
   "front": 42.0,
