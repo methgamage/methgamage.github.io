@@ -2,7 +2,7 @@
  "alerts": [],
  "battery": {
   "level": 55,
-  "range_km": 281.0,
+  "range_km": 279.0,
   "usable": 55
  },
  "car_status": "online",
@@ -28,28 +28,28 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.0,
-  "on": true,
+  "inside_c": 23.6,
+  "on": false,
   "outside_c": 23.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T19:56:57+10:00",
- "last_checked": "2026-10-05T19:56:56+10:00",
+ "data_as_of": "2026-10-05T20:06:58+10:00",
+ "last_checked": "2026-10-05T20:06:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T19:56:56+10:00",
+ "last_updated": "2026-10-05T20:06:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "1028 Samford Rd",
-  "energy_at_arrival_pct": 55,
-  "km_to_arrival": 0.1,
-  "minutes_to_arrival": 1.0
+  "destination": "12 Cabragh St",
+  "energy_at_arrival_pct": 54,
+  "km_to_arrival": 2.5,
+  "minutes_to_arrival": 4.0
  },
- "odometer_km": 42494,
+ "odometer_km": 42496,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -59,7 +59,7 @@
  "status": {
   "boot_open": false,
   "charge_port_open": false,
-  "climate_on": true,
+  "climate_on": false,
   "dashcam_on": true,
   "dashcam_state": "Recording",
   "doors": {
@@ -84,10 +84,10 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 44.2,
-  "fr": 44.2,
+  "fl": 43.9,
+  "fr": 43.5,
   "rl": 43.5,
-  "rr": 44.2
+  "rr": 43.9
  },
  "tyres_recommended_psi": {
   "front": 42.0,
