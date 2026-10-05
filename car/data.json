@@ -1,45 +1,45 @@
 {
  "alerts": [],
  "battery": {
-  "level": 74,
-  "range_km": 379.0,
-  "usable": 74
+  "level": 73,
+  "range_km": 374.0,
+  "usable": 73
  },
  "car_status": "online",
  "charging": {
   "amps": 0,
   "amps_requested": 16,
-  "departure_time": null,
+  "departure_time": "07:30",
   "energy_added_kwh": 43.32,
   "finish_time": null,
   "limit": 64,
   "minutes_to_full": 0,
-  "off_peak_enabled": false,
+  "off_peak_enabled": true,
   "off_peak_times": "all_week",
   "phases": null,
   "plugged_in": false,
   "power_kw": 0,
-  "precondition_enabled": false,
+  "precondition_enabled": true,
   "precondition_times": "weekdays",
-  "scheduled_mode": "Off",
+  "scheduled_mode": "DepartBy",
   "scheduled_pending": false,
   "scheduled_start": null,
   "state": "Disconnected",
   "volts": 2
  },
  "climate": {
-  "inside_c": 23.8,
+  "inside_c": 22.7,
   "on": false,
-  "outside_c": 26.0,
+  "outside_c": 25.5,
   "preconditioning": false,
   "set_c": 19.0,
   "set_passenger_c": 19.0
  },
- "data_as_of": "2026-10-05T16:06:57+10:00",
- "last_checked": "2026-10-05T16:06:55+10:00",
+ "data_as_of": "2026-10-05T16:36:56+10:00",
+ "last_checked": "2026-10-05T16:36:55+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T16:06:55+10:00",
- "location": "Away",
+ "last_updated": "2026-10-05T16:36:55+10:00",
+ "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
@@ -49,7 +49,7 @@
   "km_to_arrival": null,
   "minutes_to_arrival": null
  },
- "odometer_km": 42396,
+ "odometer_km": 42399,
  "polling": "every 30 min while idle; no polling while asleep",
  "software": {
   "update_status": null,
@@ -71,7 +71,7 @@
   "frunk_open": false,
   "locked": true,
   "preconditioning": false,
-  "sentry_mode": true,
+  "sentry_mode": false,
   "user_present": false,
   "valet_mode": false,
   "windows": {
@@ -82,12 +82,12 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": "2026-10-05T16:03:57+10:00",
+ "tyres_as_of": "2026-10-05T16:34:46+10:00",
  "tyres_psi": {
-  "fl": 43.5,
-  "fr": 42.8,
-  "rl": 43.1,
-  "rr": 43.1
+  "fl": 43.9,
+  "fr": 43.5,
+  "rl": 43.5,
+  "rr": 43.9
  },
  "tyres_recommended_psi": {
   "front": 42.0,
