@@ -1,12 +1,9 @@
 {
- "alerts": [
-  "Front left window open",
-  "Front right window open"
- ],
+ "alerts": [],
  "battery": {
-  "level": 54,
-  "range_km": 275.0,
-  "usable": 54
+  "level": 53,
+  "range_km": 270.0,
+  "usable": 53
  },
  "car_status": "online",
  "charging": {
@@ -31,28 +28,28 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.1,
+  "inside_c": 21.0,
   "on": true,
-  "outside_c": 22.5,
+  "outside_c": 23.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T20:16:58+10:00",
- "last_checked": "2026-10-05T20:16:56+10:00",
+ "data_as_of": "2026-10-05T20:26:57+10:00",
+ "last_checked": "2026-10-05T20:26:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T20:16:56+10:00",
+ "last_updated": "2026-10-05T20:26:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "Good Asian",
+  "destination": "24 Bunya Rd",
   "energy_at_arrival_pct": 53,
-  "km_to_arrival": 4.8,
-  "minutes_to_arrival": 6.0
+  "km_to_arrival": 1.6,
+  "minutes_to_arrival": 2.0
  },
- "odometer_km": 42502,
+ "odometer_km": 42507,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -63,8 +60,8 @@
   "boot_open": false,
   "charge_port_open": false,
   "climate_on": true,
-  "dashcam_on": false,
-  "dashcam_state": "Streaming",
+  "dashcam_on": true,
+  "dashcam_state": "Recording",
   "doors": {
    "df": false,
    "dr": false,
@@ -78,8 +75,8 @@
   "user_present": true,
   "valet_mode": false,
   "windows": {
-   "fd": true,
-   "fp": true,
+   "fd": false,
+   "fp": false,
    "rd": false,
    "rp": false
   }
@@ -87,10 +84,10 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 43.9,
+  "fl": 44.2,
   "fr": 43.9,
-  "rl": 43.5,
-  "rr": 44.2
+  "rl": 43.9,
+  "rr": 43.9
  },
  "tyres_recommended_psi": {
   "front": 42.0,
