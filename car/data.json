@@ -2,13 +2,13 @@
  "alerts": [],
  "battery": {
   "level": 75,
-  "range_km": 381.0,
+  "range_km": 380.0,
   "usable": 75
  },
  "car_status": "online",
  "charging": {
-  "amps": 4,
-  "amps_requested": 32,
+  "amps": 0,
+  "amps_requested": 16,
   "departure_time": "16:00",
   "energy_added_kwh": 43.32,
   "finish_time": null,
@@ -16,38 +16,38 @@
   "minutes_to_full": 0,
   "off_peak_enabled": true,
   "off_peak_times": "all_week",
-  "phases": 1,
-  "plugged_in": true,
-  "power_kw": 1,
+  "phases": null,
+  "plugged_in": false,
+  "power_kw": 0,
   "precondition_enabled": true,
   "precondition_times": "weekdays",
   "scheduled_mode": "DepartBy",
   "scheduled_pending": false,
   "scheduled_start": null,
-  "state": "Complete",
-  "volts": 238
+  "state": "Disconnected",
+  "volts": 2
  },
  "climate": {
-  "inside_c": 17.9,
+  "inside_c": 22.4,
   "on": true,
-  "outside_c": 28.5,
-  "preconditioning": true,
-  "set_c": 18.0,
-  "set_passenger_c": 18.0
+  "outside_c": 26.0,
+  "preconditioning": false,
+  "set_c": 19.0,
+  "set_passenger_c": 19.0
  },
- "data_as_of": "2026-10-05T15:46:27+10:00",
- "last_checked": "2026-10-05T15:46:26+10:00",
+ "data_as_of": "2026-10-05T15:56:56+10:00",
+ "last_checked": "2026-10-05T15:56:55+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T15:46:26+10:00",
+ "last_updated": "2026-10-05T15:56:55+10:00",
  "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": false,
-  "destination": null,
-  "energy_at_arrival_pct": null,
-  "km_to_arrival": null,
-  "minutes_to_arrival": null
+  "active": true,
+  "destination": "164-176 Ipswich Rd",
+  "energy_at_arrival_pct": 74,
+  "km_to_arrival": 1.9,
+  "minutes_to_arrival": 4.0
  },
  "odometer_km": 42394,
  "polling": "every 10 min (car active)",
@@ -58,7 +58,7 @@
  },
  "status": {
   "boot_open": false,
-  "charge_port_open": true,
+  "charge_port_open": false,
   "climate_on": true,
   "dashcam_on": true,
   "dashcam_state": "Recording",
@@ -70,9 +70,9 @@
   },
   "frunk_open": false,
   "locked": true,
-  "preconditioning": true,
+  "preconditioning": false,
   "sentry_mode": false,
-  "user_present": false,
+  "user_present": true,
   "valet_mode": false,
   "windows": {
    "fd": false,
@@ -82,12 +82,12 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": "2026-10-04T19:26:19+10:00",
+ "tyres_as_of": "2026-10-05T15:56:39+10:00",
  "tyres_psi": {
-  "fl": 43.5,
+  "fl": 43.1,
   "fr": 43.1,
-  "rl": 43.1,
-  "rr": 43.5
+  "rl": 42.4,
+  "rr": 42.8
  },
  "tyres_recommended_psi": {
   "front": 42.0,
