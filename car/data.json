@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 66,
-  "range_km": 334.0,
-  "usable": 66
+  "level": 64,
+  "range_km": 328.0,
+  "usable": 64
  },
  "car_status": "online",
  "charging": {
@@ -28,28 +28,28 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.3,
+  "inside_c": 21.7,
   "on": true,
   "outside_c": 23.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T18:26:57+10:00",
- "last_checked": "2026-10-05T18:26:56+10:00",
+ "data_as_of": "2026-10-05T18:36:57+10:00",
+ "last_checked": "2026-10-05T18:36:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T18:26:56+10:00",
+ "last_updated": "2026-10-05T18:36:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "19 Chambery Rd",
-  "energy_at_arrival_pct": 65,
-  "km_to_arrival": 5.0,
-  "minutes_to_arrival": 8.0
+  "destination": "1264 Anzac Ave",
+  "energy_at_arrival_pct": 64,
+  "km_to_arrival": 2.5,
+  "minutes_to_arrival": 4.0
  },
- "odometer_km": 42438,
+ "odometer_km": 42444,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -85,7 +85,7 @@
  "tyres_as_of": null,
  "tyres_psi": {
   "fl": 44.2,
-  "fr": 44.2,
+  "fr": 43.9,
   "rl": 43.9,
   "rr": 44.2
  },
