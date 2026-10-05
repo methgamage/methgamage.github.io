@@ -10,16 +10,19 @@
 <style>
 :root{--bg:#0b0c0e;--card:#16181c;--line:#24272d;--txt:#eef0f3;--mut:#8b919a;--ok:#3ecf7a;--warn:#f2b632;--bad:#ff5a5a;--acc:#3e6ae1}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:max(16px,env(safe-area-inset-top)) 16px 40px}
+body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:max(16px,env(safe-area-inset-top)) 16px 40px;transition:background .25s,color .25s}
+body.alert{--bg:#6b0f14;--card:#8a151c;--line:#a8222a;--txt:#fff5f5;--mut:#ffc9c9;background:#6b0f14}
 .wrap{max-width:720px;margin:0 auto}
 header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin:8px 0 18px}
 h1{font-size:26px;letter-spacing:.18em;font-weight:600;margin:0}
 .sub{color:var(--mut);font-size:13px}
 .pill{display:inline-block;padding:3px 10px;border-radius:99px;font-size:12px;font-weight:600;background:var(--line);color:var(--mut);white-space:nowrap}
 .pill.ok{background:rgba(62,207,122,.15);color:var(--ok)}.pill.warn{background:rgba(242,182,50,.15);color:var(--warn)}.pill.bad{background:rgba(255,90,90,.15);color:var(--bad)}
+body.alert .pill.ok{background:rgba(255,255,255,.18);color:#fff}
 .hero{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin-bottom:14px}
 .big{font-size:56px;font-weight:300;line-height:1}.big small{font-size:20px;color:var(--mut);margin-left:6px}
 .bar{position:relative;height:12px;border-radius:99px;background:#24272d;margin:16px 0 8px;overflow:hidden}
+body.alert .bar{background:rgba(0,0,0,.25)}
 .bar i{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,#2fb565,#3ecf7a);border-radius:99px}
 .bar b{position:absolute;top:-2px;bottom:-2px;width:2px;background:#fff;opacity:.8}
 .row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:var(--mut);font-size:13px}
@@ -29,11 +32,23 @@ h1{font-size:26px;letter-spacing:.18em;font-weight:600;margin:0}
 dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:7px 12px}
 dt{color:var(--mut)}dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
 .tyres{display:grid;grid-template-columns:1fr 1fr;gap:8px;text-align:center}
-.tyres div{background:#1d2025;border-radius:12px;padding:10px}.tyres span{display:block;font-size:22px}.tyres em{font-style:normal;color:var(--mut);font-size:12px}
+.tyres div{background:#1d2025;border-radius:12px;padding:10px}body.alert .tyres div{background:rgba(0,0,0,.2)}
+.tyres span{display:block;font-size:22px}.tyres em{font-style:normal;color:var(--mut);font-size:12px}
 .note{color:var(--mut);font-size:12px;margin-top:10px}
 .warnbox{color:var(--warn);font-size:13px;margin-top:8px}
 footer{color:var(--mut);font-size:12px;text-align:center;margin-top:22px}
 #err{display:none;color:var(--bad);margin:10px 0}
+#alert-banner{display:none;background:#c91822;color:#fff;border-radius:14px;padding:14px 16px;margin-bottom:14px;font-weight:700;letter-spacing:.04em;text-align:center;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+#alert-banner ul{list-style:none;margin:8px 0 0;padding:0;font-weight:600;letter-spacing:0;font-size:14px}
+#alert-banner li{margin:4px 0}
+.flags{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.flag{background:#1d2025;border-radius:12px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+body.alert .flag{background:rgba(0,0,0,.2)}
+.flag span{color:var(--mut);font-size:13px}
+.flag b{font-size:13px;font-weight:700}
+.flag b.on{color:var(--ok)}.flag b.off{color:var(--mut)}.flag b.bad{color:var(--bad)}
+body.alert .flag b.on{color:#b8ffd0}.flag.span2{grid-column:1/-1}
+.navdest{font-size:16px;font-weight:600;margin:0 0 8px;word-break:break-word}
 </style>
 </head>
 <body>
@@ -42,6 +57,7 @@ footer{color:var(--mut);font-size:12px;text-align:center;margin-top:22px}
   <div><h1>XEARTH</h1><div class="sub">Tesla Model Y · read-only status</div></div>
   <div style="text-align:right"><span id="status" class="pill">loading…</span><div class="sub" id="loc" style="margin-top:6px"></div></div>
 </header>
+<div id="alert-banner" role="alert"><div>⚠ SECURITY ALERT</div><ul id="alert-list"></ul></div>
 <div id="err">Couldn't load the latest data. Retrying automatically.</div>
 
 <section class="hero">
@@ -52,6 +68,16 @@ footer{color:var(--mut);font-size:12px;text-align:center;margin-top:22px}
 </section>
 
 <div class="grid">
+<section class="card"><h2>Navigation</h2>
+  <div class="navdest" id="nav-dest">–</div>
+  <dl id="navigation"></dl>
+</section>
+<section class="card"><h2>Status</h2>
+  <div class="flags" id="flags"></div>
+</section>
+<section class="card"><h2>Doors &amp; windows</h2>
+  <div class="flags" id="closures"></div>
+</section>
 <section class="card"><h2>Charging</h2><dl id="charging"></dl><div class="note" id="charge-note"></div></section>
 <section class="card"><h2>Schedule</h2><dl id="schedule"></dl></section>
 <section class="card"><h2>Climate</h2><dl id="climate"></dl></section>
@@ -65,7 +91,7 @@ footer{color:var(--mut);font-size:12px;text-align:center;margin-top:22px}
 <section class="card"><h2>Vehicle</h2><dl id="vehicle"></dl></section>
 <section class="card"><h2>Data freshness</h2><dl id="fresh"></dl><div class="note" id="poll"></div></section>
 </div>
-<footer>Read-only page. Updated from the car about every 10 minutes while it's active; it is never woken just to update this page.</footer>
+<footer>Read-only page. Updated from the car about every 10 minutes while it's active; it is never woken just to update this page. No commands can be sent from here.</footer>
 </div>
 <script>
 "use strict";
@@ -74,6 +100,21 @@ function $(id){return document.getElementById(id)}
 function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function v(x,suf){return (x===null||x===undefined||x==="")?"–":esc(x)+(suf||"")}
 function yn(x){return x===true?"Yes":x===false?"No":"–"}
+function onOff(x,invertBad){
+  if(x===true) return {t:"On",c:invertBad?"bad":"on"};
+  if(x===false) return {t:"Off",c:invertBad?"on":"off"};
+  return {t:"–",c:"off"};
+}
+function openClosed(x){
+  if(x===true) return {t:"Open",c:"bad"};
+  if(x===false) return {t:"Closed",c:"on"};
+  return {t:"–",c:"off"};
+}
+function lockedLabel(x){
+  if(x===true) return {t:"Locked",c:"on"};
+  if(x===false) return {t:"UNLOCKED",c:"bad"};
+  return {t:"–",c:"off"};
+}
 var fmtT=new Intl.DateTimeFormat("en-AU",{timeZone:"Australia/Brisbane",hour:"2-digit",minute:"2-digit",hour12:false});
 var fmtD=new Intl.DateTimeFormat("en-AU",{timeZone:"Australia/Brisbane",weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",hour12:false});
 function when(iso){if(!iso)return "–";var d=new Date(iso),n=new Date();
@@ -81,10 +122,49 @@ function when(iso){if(!iso)return "–";var d=new Date(iso),n=new Date();
 function ago(iso){if(!iso)return "";var s=Math.max(0,(Date.now()-new Date(iso).getTime())/1000);
   if(s<90)return "just now";var m=Math.round(s/60);if(m<90)return m+" min ago";var h=s/3600;if(h<36)return h.toFixed(h<10?1:0)+" h ago";return Math.round(h/24)+" days ago"}
 function dl(id,rows){$(id).innerHTML=rows.map(function(r){return "<dt>"+r[0]+"</dt><dd>"+r[1]+"</dd>"}).join("")}
+function flag(label, state){return "<div class='flag'><span>"+esc(label)+"</span><b class='"+state.c+"'>"+esc(state.t)+"</b></div>"}
 var STATE_TXT={Charging:"Charging",Complete:"Charge complete",Stopped:"Stopped",Disconnected:"Unplugged",NoPower:"No power from charger",Starting:"Starting"};
 var OFFPEAK={all_week:"Every day",weekdays:"Weekdays"};
+
+function computeAlerts(st){
+  if(Array.isArray(D.alerts) && D.alerts.length) return D.alerts.slice();
+  var a=[];
+  if(!st) return a;
+  if(st.locked===false) a.push("UNLOCKED");
+  var doors=st.doors||{}, windows=st.windows||{};
+  if(doors.df) a.push("Front left door open");
+  if(doors.dr) a.push("Rear left door open");
+  if(doors.pf) a.push("Front right door open");
+  if(doors.pr) a.push("Rear right door open");
+  if(windows.fd) a.push("Front left window open");
+  if(windows.fp) a.push("Front right window open");
+  if(windows.rd) a.push("Rear left window open");
+  if(windows.rp) a.push("Rear right window open");
+  if(st.frunk_open) a.push("Frunk open");
+  if(st.boot_open) a.push("Boot open");
+  return a;
+}
+
+function setAlertMode(alerts){
+  var on=alerts.length>0;
+  document.body.classList.toggle("alert", on);
+  document.querySelector('meta[name="theme-color"]').setAttribute("content", on?"#6b0f14":"#0b0c0e");
+  var ban=$("alert-banner");
+  if(on){
+    ban.style.display="block";
+    $("alert-list").innerHTML=alerts.map(function(x){return "<li>"+esc(x)+"</li>"}).join("");
+  } else {
+    ban.style.display="none";
+    $("alert-list").innerHTML="";
+  }
+}
+
 function render(){
   if(!D)return;var c=D.charging||{},b=D.battery||{},cl=D.climate||{},sw=D.software||{},t=D.tyres_psi||{},rp=D.tyres_recommended_psi||{};
+  var st=D.status||{}, nav=D.navigation||{};
+  var alerts=computeAlerts(st);
+  setAlertMode(alerts);
+
   var s=D.car_status;var sp=$("status");
   sp.className="pill "+(s==="online"?"ok":(s==="asleep"||s==="offline")?"":"warn");
   sp.textContent=s==="online"?"Online":s==="asleep"?"Asleep":s==="offline"?"Offline":(s||"Unknown");
@@ -94,15 +174,58 @@ function render(){
   if(c.limit){$("limbar").style.left=c.limit+"%";$("limbar").style.display="block"}
   $("range").textContent=(b.range_km!=null?Math.round(b.range_km)+" km range":"–")+(b.usable!=null?" · "+b.usable+"% usable":"");
   $("limit").textContent=c.limit!=null?"Limit "+c.limit+"%":"";
-  var st=c.state,cp=$("chg-pill");cp.textContent=STATE_TXT[st]||st||"–";
-  cp.className="pill "+(st==="Charging"||st==="Complete"?"ok":st==="NoPower"?"bad":st==="Stopped"?"warn":"");
-  var charging=st==="Charging";
-  dl("charging",[["State",v(STATE_TXT[st]||st)],["Plugged in",yn(c.plugged_in)],
+  var chg=c.state,cp=$("chg-pill");cp.textContent=STATE_TXT[chg]||chg||"–";
+  cp.className="pill "+(chg==="Charging"||chg==="Complete"?"ok":chg==="NoPower"?"bad":chg==="Stopped"?"warn":"");
+  var charging=chg==="Charging";
+
+  // Navigation
+  if(nav.active && nav.destination){
+    $("nav-dest").textContent=nav.destination;
+    var etaRows=[];
+    if(nav.minutes_to_arrival!=null){
+      var m=nav.minutes_to_arrival;
+      etaRows.push(["ETA", m>=60?Math.floor(m/60)+" h "+(m%60)+" min":m+" min"]);
+    }
+    if(nav.km_to_arrival!=null) etaRows.push(["Distance", v(nav.km_to_arrival," km")]);
+    if(nav.energy_at_arrival_pct!=null) etaRows.push(["Battery at arrival", v(nav.energy_at_arrival_pct,"%")]);
+    dl("navigation", etaRows.length?etaRows:[["Status","Navigating"]]);
+  } else {
+    $("nav-dest").textContent="No destination";
+    dl("navigation",[["Status","No active route"]]);
+  }
+
+  // Status flags
+  $("flags").innerHTML=[
+    flag("Climate", onOff(st.climate_on!=null?st.climate_on:cl.on)),
+    flag("Preconditioning", onOff(st.preconditioning!=null?st.preconditioning:cl.preconditioning)),
+    flag("Sentry Mode", onOff(st.sentry_mode)),
+    flag("Locks", lockedLabel(st.locked)),
+    flag("Dashcam", st.dashcam_on!=null?onOff(st.dashcam_on):(st.dashcam_state?{t:String(st.dashcam_state),c:"off"}:{t:"–",c:"off"})),
+    flag("Valet mode", onOff(st.valet_mode,true)),
+    flag("Someone in car", onOff(st.user_present)),
+    flag("Charge port", openClosed(st.charge_port_open))
+  ].join("");
+
+  var doors=st.doors||{}, windows=st.windows||{};
+  $("closures").innerHTML=[
+    flag("Front left door", openClosed(doors.df)),
+    flag("Front right door", openClosed(doors.pf)),
+    flag("Rear left door", openClosed(doors.dr)),
+    flag("Rear right door", openClosed(doors.pr)),
+    flag("Front left window", openClosed(windows.fd)),
+    flag("Front right window", openClosed(windows.fp)),
+    flag("Rear left window", openClosed(windows.rd)),
+    flag("Rear right window", openClosed(windows.rp)),
+    flag("Frunk", openClosed(st.frunk_open)),
+    flag("Boot", openClosed(st.boot_open))
+  ].join("");
+
+  dl("charging",[["State",v(STATE_TXT[chg]||chg)],["Plugged in",yn(c.plugged_in)],
     ["Power",v(c.power_kw," kW")],["Current",v(c.amps," A")+(c.amps_requested!=null?" <span style='color:var(--mut)'>/ "+esc(c.amps_requested)+" A set</span>":"")],
     ["Voltage",(c.volts!=null&&c.volts>=50)?v(c.volts," V"):"–"],["Energy added",v(c.energy_added_kwh," kWh")],
     ["Time to full",charging&&c.minutes_to_full!=null?(c.minutes_to_full>=60?Math.floor(c.minutes_to_full/60)+" h "+(c.minutes_to_full%60)+" min":c.minutes_to_full+" min"):"–"],
-    ["Should finish",c.finish_time?esc(fmtT.format(new Date(c.finish_time)))+" AEST":(st==="Complete"?"Done":"–")]]);
-  $("charge-note").textContent=(st==="Complete"&&c.power_kw>0)?"Small draw while complete is the car using wall power (e.g. climate).":"";
+    ["Should finish",c.finish_time?esc(fmtT.format(new Date(c.finish_time)))+" AEST":(chg==="Complete"?"Done":"–")]]);
+  $("charge-note").textContent=(chg==="Complete"&&c.power_kw>0)?"Small draw while complete is the car using wall power (e.g. climate).":"";
   dl("schedule",[["Off-peak charging",c.off_peak_enabled==null?"–":c.off_peak_enabled?"On ("+esc(OFFPEAK[c.off_peak_times]||c.off_peak_times||"")+")":"Off"],
     ["Schedule mode",v(c.scheduled_mode==="DepartBy"?"Depart by":c.scheduled_mode==="StartAt"?"Start at":c.scheduled_mode)],
     ["Departure time",v(c.departure_time)],["Scheduled start",c.scheduled_start?esc(fmtT.format(new Date(c.scheduled_start))):"–"],
