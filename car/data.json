@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 51,
-  "range_km": 258.0,
-  "usable": 51
+  "level": 50,
+  "range_km": 255.0,
+  "usable": 50
  },
  "car_status": "online",
  "charging": {
@@ -29,28 +29,28 @@
  },
  "climate": {
   "inside_c": 21.0,
-  "on": true,
-  "outside_c": 22.5,
+  "on": false,
+  "outside_c": 23.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-05T20:46:58+10:00",
- "last_checked": "2026-10-05T20:46:56+10:00",
+ "data_as_of": "2026-10-05T20:56:57+10:00",
+ "last_checked": "2026-10-05T20:56:56+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-05T20:46:56+10:00",
+ "last_updated": "2026-10-05T20:56:56+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": true,
-  "destination": "Home",
-  "energy_at_arrival_pct": 49,
-  "km_to_arrival": 12.4,
-  "minutes_to_arrival": 14.0
+  "active": false,
+  "destination": null,
+  "energy_at_arrival_pct": null,
+  "km_to_arrival": null,
+  "minutes_to_arrival": null
  },
- "odometer_km": 42519,
- "polling": "every 10 min (car active)",
+ "odometer_km": 42523,
+ "polling": "every 30 min while idle; no polling while asleep",
  "software": {
   "update_status": null,
   "update_version": null,
@@ -59,7 +59,7 @@
  "status": {
   "boot_open": false,
   "charge_port_open": false,
-  "climate_on": true,
+  "climate_on": false,
   "dashcam_on": true,
   "dashcam_state": "Recording",
   "doors": {
@@ -71,8 +71,8 @@
   "frunk_open": false,
   "locked": true,
   "preconditioning": false,
-  "sentry_mode": false,
-  "user_present": true,
+  "sentry_mode": true,
+  "user_present": false,
   "valet_mode": false,
   "windows": {
    "fd": false,
@@ -82,7 +82,7 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": null,
+ "tyres_as_of": "2026-10-05T20:56:31+10:00",
  "tyres_psi": {
   "fl": 43.9,
   "fr": 43.5,
