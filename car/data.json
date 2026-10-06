@@ -36,7 +36,7 @@
   "set_passenger_c": 20.0
  },
  "data_as_of": "2026-10-06T20:14:04+10:00",
- "last_checked": "2026-10-06T20:14:01+10:00",
+ "last_checked": "2026-10-06T20:19:13+10:00",
  "last_seen_online": null,
  "last_updated": "2026-10-06T20:14:01+10:00",
  "location": "Away",
@@ -94,13 +94,13 @@
   "rear": 42.0
  },
  "weather": {
-  "car_area": "East Brisbane home",
-  "eta": "Thunderstorms likely this evening, no hail forecast; nothing near the car in the next hour",
-  "radar": "5:34 PM: Brisbane clear; strongest cell near Gatton ~55 km west",
+  "car_area": "Brisbane metro",
+  "eta": null,
+  "radar": "8:04 PM: Brisbane metro clear; nearest severe storm ~130 km NW near Blackbutt",
   "source": "BOM Brisbane forecast issued 4:39 PM AEST Tue 6 Oct 2026",
-  "storm_watch": true,
-  "summary": "Thunderstorm likely late afternoon and evening. BOM no longer forecasts large hail for Brisbane.",
-  "updated": "5:37 PM Tue 6 Oct",
-  "warning": "BOM severe thunderstorm warning for inland central Queensland only, not Brisbane (5:08 PM)"
+  "storm_watch": false,
+  "summary": "Mostly clear; slight chance of a shower; thunderstorm likely this evening; 30% rain. No severe or hail wording for Brisbane.",
+  "updated": "8:07 PM Tue 6 Oct",
+  "warning": "No BOM warning for Brisbane (inland warnings only)"
  }
 }
