@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 60,
-  "range_km": 308.0,
-  "usable": 60
+  "level": 58,
+  "range_km": 296.0,
+  "usable": 58
  },
  "car_status": "online",
  "charging": {
@@ -28,17 +28,17 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.1,
+  "inside_c": 21.0,
   "on": true,
-  "outside_c": 25.0,
+  "outside_c": 25.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-06T16:14:04+10:00",
- "last_checked": "2026-10-06T16:14:02+10:00",
+ "data_as_of": "2026-10-06T16:24:05+10:00",
+ "last_checked": "2026-10-06T16:24:02+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-06T16:14:02+10:00",
+ "last_updated": "2026-10-06T16:24:02+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
@@ -46,10 +46,10 @@
   "active": true,
   "destination": "Tesla Mount Gravatt",
   "energy_at_arrival_pct": 58,
-  "km_to_arrival": 12.5,
-  "minutes_to_arrival": 17.0
+  "km_to_arrival": 2.4,
+  "minutes_to_arrival": 5.0
  },
- "odometer_km": 42579,
+ "odometer_km": 42589,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -84,10 +84,10 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 43.5,
-  "fr": 42.8,
-  "rl": 42.8,
-  "rr": 43.5
+  "fl": 44.6,
+  "fr": 44.2,
+  "rl": 43.9,
+  "rr": 45.0
  },
  "tyres_recommended_psi": {
   "front": 42.0,
