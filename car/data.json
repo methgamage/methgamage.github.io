@@ -2,7 +2,7 @@
  "alerts": [],
  "battery": {
   "level": 48,
-  "range_km": 247.0,
+  "range_km": 242.0,
   "usable": 48
  },
  "car_status": "online",
@@ -30,26 +30,26 @@
  "climate": {
   "inside_c": 20.0,
   "on": true,
-  "outside_c": 23.0,
+  "outside_c": 24.0,
   "preconditioning": false,
   "set_c": 20.0,
   "set_passenger_c": 20.0
  },
- "data_as_of": "2026-10-06T19:54:03+10:00",
- "last_checked": "2026-10-06T19:54:01+10:00",
+ "data_as_of": "2026-10-06T20:04:04+10:00",
+ "last_checked": "2026-10-06T20:04:01+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-06T19:54:01+10:00",
+ "last_updated": "2026-10-06T20:04:01+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "Tutto Caffe Espresso Bar",
-  "energy_at_arrival_pct": 48,
-  "km_to_arrival": 2.5,
-  "minutes_to_arrival": 3.0
+  "destination": "129 Leichhardt St",
+  "energy_at_arrival_pct": 47,
+  "km_to_arrival": 1.1,
+  "minutes_to_arrival": 2.0
  },
- "odometer_km": 42629,
+ "odometer_km": 42634,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -87,7 +87,7 @@
   "fl": 44.2,
   "fr": 43.9,
   "rl": 43.5,
-  "rr": 43.9
+  "rr": 44.2
  },
  "tyres_recommended_psi": {
   "front": 42.0,
