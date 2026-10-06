@@ -36,7 +36,7 @@
   "set_passenger_c": 21.0
  },
  "data_as_of": "2026-10-06T16:34:05+10:00",
- "last_checked": "2026-10-06T16:34:02+10:00",
+ "last_checked": "2026-10-06T16:39:33+10:00",
  "last_seen_online": null,
  "last_updated": "2026-10-06T16:34:02+10:00",
  "location": "Away",
@@ -94,13 +94,13 @@
   "rear": 42.0
  },
  "weather": {
-  "car_area": "Cesco Murarrie",
-  "eta": "Early this evening (no storm due near the car in the next hour)",
-  "radar": "4:04 PM: Brisbane metro, Murarrie and East Brisbane clear; cells near Marburg, Warwick and Kyogle",
-  "source": "BOM Brisbane forecast issued 3:20 PM AEST Tue 6 Oct 2026",
+  "car_area": "On the road, south Brisbane",
+  "eta": "Early this evening (nothing due near the car in the next hour)",
+  "radar": "4:34 PM: Brisbane metro clear; cells inland near Gatton, Toowoomba and Kyogle",
+  "source": "BOM Brisbane forecast issued 4:12 PM AEST Tue 6 Oct 2026",
   "storm_watch": true,
-  "summary": "Thunderstorm likely early this evening, possibly severe with damaging winds and large hail. Rain chance 30%.",
-  "updated": "4:09 PM Tue 6 Oct",
-  "warning": "BOM severe thunderstorm warning current for Central Highlands/Darling Downs only, not Brisbane (4:01 PM)"
+  "summary": "Thunderstorm likely early this evening, possibly severe with damaging winds and large hail. Slight chance of a shower.",
+  "updated": "4:37 PM Tue 6 Oct",
+  "warning": "BOM severe thunderstorm warning current for inland and Wide Bay areas only, not Brisbane (4:02 PM)"
  }
 }
