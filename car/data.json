@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 49,
-  "range_km": 250.0,
-  "usable": 49
+  "level": 48,
+  "range_km": 247.0,
+  "usable": 48
  },
  "car_status": "online",
  "charging": {
@@ -35,21 +35,21 @@
   "set_c": 20.0,
   "set_passenger_c": 20.0
  },
- "data_as_of": "2026-10-06T19:44:04+10:00",
- "last_checked": "2026-10-06T19:44:01+10:00",
+ "data_as_of": "2026-10-06T19:54:03+10:00",
+ "last_checked": "2026-10-06T19:54:01+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-06T19:44:01+10:00",
+ "last_updated": "2026-10-06T19:54:01+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "929 State Route 31",
-  "energy_at_arrival_pct": 49,
-  "km_to_arrival": 1.5,
-  "minutes_to_arrival": 2.0
+  "destination": "Tutto Caffe Espresso Bar",
+  "energy_at_arrival_pct": 48,
+  "km_to_arrival": 2.5,
+  "minutes_to_arrival": 3.0
  },
- "odometer_km": 42626,
+ "odometer_km": 42629,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -85,9 +85,9 @@
  "tyres_as_of": null,
  "tyres_psi": {
   "fl": 44.2,
-  "fr": 43.5,
+  "fr": 43.9,
   "rl": 43.5,
-  "rr": 44.2
+  "rr": 43.9
  },
  "tyres_recommended_psi": {
   "front": 42.0,
