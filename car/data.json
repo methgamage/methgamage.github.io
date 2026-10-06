@@ -36,7 +36,7 @@
   "set_passenger_c": 21.0
  },
  "data_as_of": "2026-10-06T13:35:31+10:00",
- "last_checked": "2026-10-06T15:15:28+10:00",
+ "last_checked": "2026-10-06T15:43:30+10:00",
  "last_seen_online": "2026-10-06T13:35:28+10:00",
  "last_updated": "2026-10-06T13:35:28+10:00",
  "location": "Away",
@@ -92,5 +92,15 @@
  "tyres_recommended_psi": {
   "front": 42.0,
   "rear": 42.0
+ },
+ "weather": {
+  "car_area": "Cesco Murarrie",
+  "eta": "Early this evening (no exact time yet)",
+  "radar": "3:34 PM: Murarrie, Archerfield and East Brisbane clear; storms inland to the SW/W",
+  "source": "BOM Brisbane forecast issued 3:20 PM AEST Tue 6 Oct 2026",
+  "storm_watch": true,
+  "summary": "Thunderstorm likely early this evening, possibly severe with damaging winds and large hail. Rain chance 30%.",
+  "updated": "3:38 PM Tue 6 Oct",
+  "warning": "No BOM severe thunderstorm warning as of 3:33 PM"
  }
 }
