@@ -36,7 +36,7 @@
   "set_passenger_c": 20.0
  },
  "data_as_of": "2026-10-07T07:35:52+10:00",
- "last_checked": "2026-10-07T07:39:50+10:00",
+ "last_checked": "2026-10-07T07:39:56+10:00",
  "last_seen_online": null,
  "last_updated": "2026-10-07T07:35:49+10:00",
  "location": "At home",
@@ -94,13 +94,13 @@
   "rear": 42.0
  },
  "weather": {
-  "car_area": "Brisbane",
+  "car_area": "On the road to Cesco Murarrie",
   "eta": null,
   "radar": "7:34 AM: East Brisbane, Murarrie and Archerfield clear",
   "source": "BOM Brisbane forecast issued 3:20 AM AEST Wed 7 Oct 2026",
   "storm_watch": false,
   "summary": "Shower or two (50%), most likely late morning and afternoon; chance of thunderstorm this morning. No hail.",
-  "updated": "7:38 AM Wed 7 Oct",
+  "updated": "7:39 AM Wed 7 Oct",
   "warning": "No BOM severe thunderstorm warning for Brisbane"
  }
 }
