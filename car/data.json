@@ -5,7 +5,7 @@
   "range_km": 323.0,
   "usable": 63
  },
- "car_status": "online",
+ "car_status": "offline",
  "charging": {
   "amps": 32,
   "amps_requested": 32,
@@ -36,8 +36,8 @@
   "set_passenger_c": 20.0
  },
  "data_as_of": "2026-10-07T05:55:52+10:00",
- "last_checked": "2026-10-07T05:55:49+10:00",
- "last_seen_online": null,
+ "last_checked": "2026-10-07T06:05:49+10:00",
+ "last_seen_online": "2026-10-07T05:55:49+10:00",
  "last_updated": "2026-10-07T05:55:49+10:00",
  "location": "At home",
  "model": "Model Y",
@@ -50,7 +50,7 @@
   "minutes_to_arrival": null
  },
  "odometer_km": 42656,
- "polling": "every 10 min (car active)",
+ "polling": "every 30 min while idle; no polling while asleep",
  "software": {
   "update_status": null,
   "update_version": null,
