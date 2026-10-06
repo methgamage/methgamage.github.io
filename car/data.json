@@ -28,17 +28,17 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 22.0,
+  "inside_c": 26.2,
   "on": false,
   "outside_c": 26.5,
   "preconditioning": false,
   "set_c": 22.0,
   "set_passenger_c": 22.0
  },
- "data_as_of": "2026-10-06T17:04:05+10:00",
- "last_checked": "2026-10-06T17:13:23+10:00",
+ "data_as_of": "2026-10-06T17:13:56+10:00",
+ "last_checked": "2026-10-06T17:13:53+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-06T17:04:03+10:00",
+ "last_updated": "2026-10-06T17:13:53+10:00",
  "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
@@ -82,7 +82,7 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": null,
+ "tyres_as_of": "2026-10-06T17:04:56+10:00",
  "tyres_psi": {
   "fl": 44.6,
   "fr": 44.2,
