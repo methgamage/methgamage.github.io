@@ -49,6 +49,13 @@ body.alert .flag{background:rgba(0,0,0,.2)}
 .flag b.on{color:var(--ok)}.flag b.off{color:var(--mut)}.flag b.bad{color:var(--bad)}
 body.alert .flag b.on{color:#b8ffd0}.flag.span2{grid-column:1/-1}
 .navdest{font-size:16px;font-weight:600;margin:0 0 8px;word-break:break-word}
+
+body.storm-watch{box-shadow:inset 0 0 0 6px #c91822}
+body.storm-watch .wrap{outline:6px solid #c91822;outline-offset:0;border-radius:4px;padding:8px}
+#storm-banner{display:none;background:#c91822;color:#fff;border-radius:14px;padding:14px 16px;margin-bottom:14px;font-weight:700;letter-spacing:.04em;text-align:center;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+#storm-banner .storm-sub{font-weight:600;letter-spacing:0;font-size:14px;margin-top:8px;opacity:.95}
+#storm-banner .storm-warn{font-weight:600;letter-spacing:0;font-size:13px;margin-top:6px;opacity:.9}
+body.alert.storm-watch{/* both modes: keep security red theme + storm border */}
 </style>
 </head>
 <body>
@@ -58,6 +65,11 @@ body.alert .flag b.on{color:#b8ffd0}.flag.span2{grid-column:1/-1}
   <div style="text-align:right"><span id="status" class="pill">loading…</span><div class="sub" id="loc" style="margin-top:6px"></div></div>
 </header>
 <div id="alert-banner" role="alert"><div>⚠ SECURITY ALERT</div><ul id="alert-list"></ul></div>
+<div id="storm-banner" role="alert">
+  <div id="storm-title">⚠ STORM WATCH</div>
+  <div class="storm-sub" id="storm-eta"></div>
+  <div class="storm-warn" id="storm-warn"></div>
+</div>
 <div id="err">Couldn't load the latest data. Retrying automatically.</div>
 
 <section class="hero">
@@ -68,6 +80,11 @@ body.alert .flag b.on{color:#b8ffd0}.flag.span2{grid-column:1/-1}
 </section>
 
 <div class="grid">
+
+<section class="card" id="weather-card" style="display:none"><h2>Weather</h2>
+  <dl id="weather"></dl>
+  <div class="note" id="weather-note"></div>
+</section>
 <section class="card"><h2>Navigation</h2>
   <div class="navdest" id="nav-dest">–</div>
   <dl id="navigation"></dl>
@@ -148,7 +165,8 @@ function computeAlerts(st){
 function setAlertMode(alerts){
   var on=alerts.length>0;
   document.body.classList.toggle("alert", on);
-  document.querySelector('meta[name="theme-color"]').setAttribute("content", on?"#6b0f14":"#0b0c0e");
+  var storm=document.body.classList.contains("storm-watch");
+  document.querySelector('meta[name="theme-color"]').setAttribute("content", (on||storm)?"#6b0f14":"#0b0c0e");
   var ban=$("alert-banner");
   if(on){
     ban.style.display="block";
@@ -157,6 +175,46 @@ function setAlertMode(alerts){
     ban.style.display="none";
     $("alert-list").innerHTML="";
   }
+}
+
+function setStormWatch(w){
+  w=w||{};
+  var on=!!w.storm_watch;
+  document.body.classList.toggle("storm-watch", on);
+  var ban=$("storm-banner");
+  if(on){
+    ban.style.display="block";
+    var eta=w.eta||"timing unknown";
+    $("storm-title").textContent="⚠ STORM WATCH — severe weather expected near the car: "+eta;
+    $("storm-eta").textContent=w.car_area?("Near "+w.car_area):"";
+    $("storm-warn").textContent=w.warning||"";
+  } else {
+    ban.style.display="none";
+    $("storm-title").textContent="⚠ STORM WATCH";
+    $("storm-eta").textContent="";
+    $("storm-warn").textContent="";
+  }
+  var sec=document.body.classList.contains("alert");
+  document.querySelector('meta[name="theme-color"]').setAttribute("content", (sec||on)?"#6b0f14":"#0b0c0e");
+}
+
+function renderWeather(w){
+  w=w||{};
+  var card=$("weather-card");
+  var has=w.summary||w.source||w.radar||w.warning||w.eta||w.car_area||w.updated;
+  if(!has && !w.storm_watch){card.style.display="none";return}
+  card.style.display="block";
+  var rows=[];
+  if(w.storm_watch) rows.push(["Storm Watch","<span style='color:var(--bad);font-weight:700'>ACTIVE</span>"]);
+  else rows.push(["Storm Watch","Off"]);
+  if(w.car_area) rows.push(["Near car",esc(w.car_area)]);
+  if(w.eta) rows.push(["Expected near car",esc(w.eta)]);
+  if(w.summary) rows.push(["Forecast",esc(w.summary)]);
+  if(w.warning) rows.push(["Warnings",esc(w.warning)]);
+  if(w.radar) rows.push(["Radar",esc(w.radar)]);
+  if(w.updated) rows.push(["Weather as of",esc(w.updated)]);
+  dl("weather", rows);
+  $("weather-note").textContent=w.source?("Source: "+w.source):"";
 }
 
 function render(){
