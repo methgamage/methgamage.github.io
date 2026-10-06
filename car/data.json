@@ -25,7 +25,7 @@
   "scheduled_pending": false,
   "scheduled_start": null,
   "state": "Stopped",
-  "volts": 239
+  "volts": 235
  },
  "climate": {
   "inside_c": 20.0,
@@ -35,10 +35,10 @@
   "set_c": 20.0,
   "set_passenger_c": 20.0
  },
- "data_as_of": "2026-10-07T07:25:53+10:00",
- "last_checked": "2026-10-07T07:25:49+10:00",
+ "data_as_of": "2026-10-07T07:35:52+10:00",
+ "last_checked": "2026-10-07T07:35:49+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T07:25:49+10:00",
+ "last_updated": "2026-10-07T07:35:49+10:00",
  "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
