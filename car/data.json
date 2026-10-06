@@ -1,11 +1,11 @@
 {
  "alerts": [],
  "battery": {
-  "level": 62,
-  "range_km": 314.0,
-  "usable": 62
+  "level": 61,
+  "range_km": 313.0,
+  "usable": 61
  },
- "car_status": "offline",
+ "car_status": "online",
  "charging": {
   "amps": 0,
   "amps_requested": 16,
@@ -28,17 +28,17 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 26.2,
+  "inside_c": 30.9,
   "on": false,
-  "outside_c": 25.0,
+  "outside_c": 24.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-06T09:12:52+10:00",
- "last_checked": "2026-10-06T13:05:28+10:00",
- "last_seen_online": "2026-10-06T09:22:51+10:00",
- "last_updated": "2026-10-06T09:12:51+10:00",
+ "data_as_of": "2026-10-06T13:35:31+10:00",
+ "last_checked": "2026-10-06T13:35:28+10:00",
+ "last_seen_online": null,
+ "last_updated": "2026-10-06T13:35:28+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
