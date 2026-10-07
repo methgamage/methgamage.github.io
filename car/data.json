@@ -1,55 +1,55 @@
 {
  "alerts": [],
  "battery": {
-  "level": 54,
-  "range_km": 274.0,
-  "usable": 54
+  "level": 53,
+  "range_km": 271.0,
+  "usable": 53
  },
  "car_status": "online",
  "charging": {
   "amps": 0,
   "amps_requested": 16,
-  "departure_time": "07:30",
+  "departure_time": null,
   "energy_added_kwh": 16.88,
   "finish_time": null,
   "limit": 64,
   "minutes_to_full": 0,
-  "off_peak_enabled": true,
+  "off_peak_enabled": false,
   "off_peak_times": "all_week",
   "phases": null,
   "plugged_in": false,
   "power_kw": 0,
-  "precondition_enabled": true,
+  "precondition_enabled": false,
   "precondition_times": "weekdays",
-  "scheduled_mode": "DepartBy",
+  "scheduled_mode": "Off",
   "scheduled_pending": false,
   "scheduled_start": null,
   "state": "Disconnected",
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.2,
-  "on": true,
-  "outside_c": 26.0,
+  "inside_c": 26.5,
+  "on": false,
+  "outside_c": 23.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-07T17:17:09+10:00",
- "last_checked": "2026-10-07T17:17:06+10:00",
+ "data_as_of": "2026-10-07T17:27:09+10:00",
+ "last_checked": "2026-10-07T17:27:06+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T17:17:06+10:00",
+ "last_updated": "2026-10-07T17:27:06+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": false,
-  "destination": null,
-  "energy_at_arrival_pct": 54,
-  "km_to_arrival": null,
-  "minutes_to_arrival": null
+  "active": true,
+  "destination": "Sushi Kiyo Coorparoo",
+  "energy_at_arrival_pct": 53,
+  "km_to_arrival": 2.3,
+  "minutes_to_arrival": 5.0
  },
- "odometer_km": 42696,
+ "odometer_km": 42698,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -59,7 +59,7 @@
  "status": {
   "boot_open": false,
   "charge_port_open": false,
-  "climate_on": true,
+  "climate_on": false,
   "dashcam_on": true,
   "dashcam_state": "Recording",
   "doors": {
@@ -84,9 +84,9 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 43.1,
-  "fr": 43.1,
-  "rl": 42.8,
+  "fl": 43.5,
+  "fr": 43.5,
+  "rl": 43.1,
   "rr": 43.5
  },
  "tyres_recommended_psi": {
