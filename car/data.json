@@ -1,55 +1,58 @@
 {
- "alerts": [],
+ "alerts": [
+  "UNLOCKED",
+  "Front left door open"
+ ],
  "battery": {
-  "level": 55,
-  "range_km": 279.0,
-  "usable": 55
+  "level": 54,
+  "range_km": 275.0,
+  "usable": 54
  },
  "car_status": "online",
  "charging": {
   "amps": 0,
   "amps_requested": 16,
-  "departure_time": "16:00",
+  "departure_time": "07:30",
   "energy_added_kwh": 16.88,
   "finish_time": null,
   "limit": 64,
   "minutes_to_full": 0,
-  "off_peak_enabled": false,
+  "off_peak_enabled": true,
   "off_peak_times": "all_week",
   "phases": null,
   "plugged_in": false,
   "power_kw": 0,
   "precondition_enabled": true,
   "precondition_times": "weekdays",
-  "scheduled_mode": "Off",
+  "scheduled_mode": "DepartBy",
   "scheduled_pending": false,
   "scheduled_start": null,
   "state": "Disconnected",
   "volts": 2
  },
  "climate": {
-  "inside_c": 22.0,
+  "inside_c": 21.0,
   "on": true,
   "outside_c": 24.0,
   "preconditioning": false,
-  "set_c": 22.0,
-  "set_passenger_c": 22.0
+  "set_c": 21.0,
+  "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-07T16:27:08+10:00",
- "last_checked": "2026-10-07T16:27:05+10:00",
+ "data_as_of": "2026-10-07T16:37:08+10:00",
+ "last_checked": "2026-10-07T16:37:05+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T16:27:05+10:00",
- "location": "Away",
+ "last_updated": "2026-10-07T16:37:05+10:00",
+ "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": true,
-  "destination": "Home",
+  "active": false,
+  "destination": null,
   "energy_at_arrival_pct": 54,
-  "km_to_arrival": 4.1,
-  "minutes_to_arrival": 9.0
+  "km_to_arrival": null,
+  "minutes_to_arrival": null
  },
- "odometer_km": 42690,
+ "odometer_km": 42695,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -63,13 +66,13 @@
   "dashcam_on": true,
   "dashcam_state": "Recording",
   "doors": {
-   "df": false,
+   "df": true,
    "dr": false,
    "pf": false,
    "pr": false
   },
   "frunk_open": false,
-  "locked": true,
+  "locked": false,
   "preconditioning": false,
   "sentry_mode": false,
   "user_present": true,
@@ -84,10 +87,10 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 43.5,
-  "fr": 43.5,
-  "rl": 43.1,
-  "rr": 43.9
+  "fl": 44.2,
+  "fr": 44.2,
+  "rl": 43.5,
+  "rr": 44.2
  },
  "tyres_recommended_psi": {
   "front": 42.0,
