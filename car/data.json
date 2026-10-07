@@ -2,10 +2,10 @@
  "alerts": [],
  "battery": {
   "level": 54,
-  "range_km": 275.0,
+  "range_km": 274.0,
   "usable": 54
  },
- "car_status": "offline",
+ "car_status": "online",
  "charging": {
   "amps": 0,
   "amps_requested": 16,
@@ -28,29 +28,29 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 25.2,
-  "on": false,
-  "outside_c": 24.0,
+  "inside_c": 21.2,
+  "on": true,
+  "outside_c": 26.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-07T16:47:08+10:00",
- "last_checked": "2026-10-07T17:00:17+10:00",
- "last_seen_online": "2026-10-07T16:47:05+10:00",
- "last_updated": "2026-10-07T16:47:05+10:00",
- "location": "At home",
+ "data_as_of": "2026-10-07T17:17:09+10:00",
+ "last_checked": "2026-10-07T17:17:06+10:00",
+ "last_seen_online": null,
+ "last_updated": "2026-10-07T17:17:06+10:00",
+ "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": false,
   "destination": null,
-  "energy_at_arrival_pct": null,
+  "energy_at_arrival_pct": 54,
   "km_to_arrival": null,
   "minutes_to_arrival": null
  },
- "odometer_km": 42695,
- "polling": "every 30 min while idle; no polling while asleep",
+ "odometer_km": 42696,
+ "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
   "update_version": null,
@@ -59,7 +59,7 @@
  "status": {
   "boot_open": false,
   "charge_port_open": false,
-  "climate_on": false,
+  "climate_on": true,
   "dashcam_on": true,
   "dashcam_state": "Recording",
   "doors": {
@@ -72,7 +72,7 @@
   "locked": true,
   "preconditioning": false,
   "sentry_mode": false,
-  "user_present": false,
+  "user_present": true,
   "valet_mode": false,
   "windows": {
    "fd": false,
@@ -82,12 +82,12 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": "2026-10-07T16:38:13+10:00",
+ "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 44.2,
-  "fr": 44.2,
-  "rl": 43.5,
-  "rr": 44.2
+  "fl": 43.1,
+  "fr": 43.1,
+  "rl": 42.8,
+  "rr": 43.5
  },
  "tyres_recommended_psi": {
   "front": 42.0,
