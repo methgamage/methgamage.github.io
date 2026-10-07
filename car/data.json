@@ -2,7 +2,7 @@
  "alerts": [],
  "battery": {
   "level": 44,
-  "range_km": 227.0,
+  "range_km": 223.0,
   "usable": 44
  },
  "car_status": "online",
@@ -28,17 +28,17 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.1,
+  "inside_c": 21.0,
   "on": true,
   "outside_c": 21.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-07T19:17:09+10:00",
- "last_checked": "2026-10-07T19:17:06+10:00",
+ "data_as_of": "2026-10-07T19:27:09+10:00",
+ "last_checked": "2026-10-07T19:27:06+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T19:17:06+10:00",
+ "last_updated": "2026-10-07T19:27:06+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
@@ -46,10 +46,10 @@
   "active": true,
   "destination": "18 Keith St",
   "energy_at_arrival_pct": 42,
-  "km_to_arrival": 10.1,
-  "minutes_to_arrival": 13.0
+  "km_to_arrival": 5.5,
+  "minutes_to_arrival": 6.0
  },
- "odometer_km": 42741,
+ "odometer_km": 42746,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -86,7 +86,7 @@
  "tyres_psi": {
   "fl": 43.5,
   "fr": 43.1,
-  "rl": 43.1,
+  "rl": 42.8,
   "rr": 43.5
  },
  "tyres_recommended_psi": {
