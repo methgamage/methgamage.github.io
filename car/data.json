@@ -1,10 +1,8 @@
 {
- "alerts": [
-  "UNLOCKED"
- ],
+ "alerts": [],
  "battery": {
   "level": 36,
-  "range_km": 184.0,
+  "range_km": 183.0,
   "usable": 36
  },
  "car_status": "online",
@@ -30,18 +28,18 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.0,
+  "inside_c": 23.0,
   "on": true,
-  "outside_c": 22.0,
+  "outside_c": 21.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-07T20:57:09+10:00",
- "last_checked": "2026-10-07T20:57:06+10:00",
+ "data_as_of": "2026-10-07T21:07:09+10:00",
+ "last_checked": "2026-10-07T21:07:06+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T20:57:06+10:00",
- "location": "At home",
+ "last_updated": "2026-10-07T21:07:06+10:00",
+ "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
@@ -62,8 +60,8 @@
   "boot_open": false,
   "charge_port_open": false,
   "climate_on": true,
-  "dashcam_on": true,
-  "dashcam_state": "Recording",
+  "dashcam_on": false,
+  "dashcam_state": "Streaming",
   "doors": {
    "df": false,
    "dr": false,
@@ -71,7 +69,7 @@
    "pr": false
   },
   "frunk_open": false,
-  "locked": false,
+  "locked": true,
   "preconditioning": false,
   "sentry_mode": false,
   "user_present": true,
@@ -84,12 +82,12 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": "2026-10-07T20:53:43+10:00",
+ "tyres_as_of": null,
  "tyres_psi": {
   "fl": 43.1,
-  "fr": 43.1,
-  "rl": 43.1,
-  "rr": 43.5
+  "fr": 42.8,
+  "rl": 42.8,
+  "rr": 43.1
  },
  "tyres_recommended_psi": {
   "front": 42.0,
