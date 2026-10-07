@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 51,
-  "range_km": 260.0,
-  "usable": 51
+  "level": 50,
+  "range_km": 254.0,
+  "usable": 50
  },
  "car_status": "online",
  "charging": {
@@ -28,28 +28,28 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 26.6,
-  "on": false,
-  "outside_c": 22.0,
+  "inside_c": 21.0,
+  "on": true,
+  "outside_c": 21.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-07T18:07:09+10:00",
- "last_checked": "2026-10-07T18:07:06+10:00",
+ "data_as_of": "2026-10-07T18:17:09+10:00",
+ "last_checked": "2026-10-07T18:17:06+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T18:07:06+10:00",
+ "last_updated": "2026-10-07T18:17:06+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "15 Sunstone St",
+  "destination": "22 Cornucopia St",
   "energy_at_arrival_pct": 50,
-  "km_to_arrival": 6.5,
-  "minutes_to_arrival": 9.0
+  "km_to_arrival": 0.6,
+  "minutes_to_arrival": 2.0
  },
- "odometer_km": 42709,
+ "odometer_km": 42716,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -59,7 +59,7 @@
  "status": {
   "boot_open": false,
   "charge_port_open": false,
-  "climate_on": false,
+  "climate_on": true,
   "dashcam_on": true,
   "dashcam_state": "Recording",
   "doors": {
@@ -84,10 +84,10 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 43.5,
-  "fr": 43.1,
+  "fl": 43.9,
+  "fr": 43.5,
   "rl": 43.1,
-  "rr": 43.5
+  "rr": 43.9
  },
  "tyres_recommended_psi": {
   "front": 42.0,
