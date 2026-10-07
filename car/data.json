@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 61,
-  "range_km": 309.0,
-  "usable": 61
+  "level": 60,
+  "range_km": 304.0,
+  "usable": 60
  },
  "car_status": "online",
  "charging": {
@@ -14,14 +14,14 @@
   "finish_time": null,
   "limit": 64,
   "minutes_to_full": 0,
-  "off_peak_enabled": false,
+  "off_peak_enabled": true,
   "off_peak_times": "all_week",
   "phases": null,
   "plugged_in": false,
   "power_kw": 0,
   "precondition_enabled": true,
   "precondition_times": "weekdays",
-  "scheduled_mode": "Off",
+  "scheduled_mode": "DepartBy",
   "scheduled_pending": false,
   "scheduled_start": null,
   "state": "Disconnected",
@@ -35,21 +35,21 @@
   "set_c": 20.0,
   "set_passenger_c": 20.0
  },
- "data_as_of": "2026-10-07T12:27:07+10:00",
- "last_checked": "2026-10-07T12:27:04+10:00",
+ "data_as_of": "2026-10-07T12:37:07+10:00",
+ "last_checked": "2026-10-07T12:37:04+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T12:27:04+10:00",
- "location": "Away",
+ "last_updated": "2026-10-07T12:37:04+10:00",
+ "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": true,
-  "destination": "Home",
-  "energy_at_arrival_pct": 60,
-  "km_to_arrival": 5.3,
-  "minutes_to_arrival": 8.0
+  "active": false,
+  "destination": null,
+  "energy_at_arrival_pct": null,
+  "km_to_arrival": null,
+  "minutes_to_arrival": null
  },
- "odometer_km": 42670,
+ "odometer_km": 42676,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -72,7 +72,7 @@
   "locked": true,
   "preconditioning": false,
   "sentry_mode": false,
-  "user_present": true,
+  "user_present": false,
   "valet_mode": false,
   "windows": {
    "fd": false,
@@ -82,12 +82,12 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": null,
+ "tyres_as_of": "2026-10-07T12:36:37+10:00",
  "tyres_psi": {
-  "fl": 44.2,
-  "fr": 44.2,
-  "rl": 43.9,
-  "rr": 44.6
+  "fl": 45.0,
+  "fr": 45.7,
+  "rl": 45.0,
+  "rr": 45.3
  },
  "tyres_recommended_psi": {
   "front": 42.0,
