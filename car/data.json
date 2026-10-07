@@ -36,7 +36,7 @@
   "set_passenger_c": 21.0
  },
  "data_as_of": "2026-10-07T21:27:09+10:00",
- "last_checked": "2026-10-07T21:27:06+10:00",
+ "last_checked": "2026-10-07T21:34:42+10:00",
  "last_seen_online": null,
  "last_updated": "2026-10-07T21:27:06+10:00",
  "location": "Away",
@@ -94,13 +94,13 @@
   "rear": 42.0
  },
  "weather": {
-  "car_area": "Cesco Murarrie (assumed)",
+  "car_area": "Away ~8 km from East Brisbane home (parked; data 9:27 PM)",
   "eta": null,
-  "radar": "Murarrie, Archerfield, East Brisbane clear at 3:34 PM; isolated specks Dayboro/Redcliffe/Tamborine.",
+  "radar": "Mt Stapylton 9:19 PM: Brisbane metro clear; a few light showers well to the south-east.",
   "source": "Weather bot Clear Watch",
   "storm_watch": false,
-  "summary": "Partly cloudy; medium chance of showers (60%, 1\u20134 mm) becoming less likely late afternoon/evening. SE winds 20\u201330 km/h, light later. Max 28.",
-  "updated": "3:39 PM Brisbane, Wed 7 Oct",
+  "summary": "Tonight partly cloudy, light winds. Thursday: cloudy, slight chance of shower late morning/afternoon (30%), S\u2013SE 15\u201320 km/h, max 24. Friday: 20% shower chance, max 28. No hail or thunderstorm risk tonight or tomorrow.",
+  "updated": "9:33 PM Brisbane, Wed 7 Oct",
   "warning": null
  }
 }
