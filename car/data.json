@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 47,
-  "range_km": 239.0,
-  "usable": 47
+  "level": 44,
+  "range_km": 227.0,
+  "usable": 44
  },
  "car_status": "online",
  "charging": {
@@ -28,29 +28,29 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 21.0,
-  "on": false,
+  "inside_c": 21.1,
+  "on": true,
   "outside_c": 21.5,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-07T18:47:09+10:00",
- "last_checked": "2026-10-07T18:47:06+10:00",
+ "data_as_of": "2026-10-07T19:17:09+10:00",
+ "last_checked": "2026-10-07T19:17:06+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T18:47:06+10:00",
+ "last_updated": "2026-10-07T19:17:06+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": false,
-  "destination": null,
-  "energy_at_arrival_pct": null,
-  "km_to_arrival": null,
-  "minutes_to_arrival": null
+  "active": true,
+  "destination": "18 Keith St",
+  "energy_at_arrival_pct": 42,
+  "km_to_arrival": 10.1,
+  "minutes_to_arrival": 13.0
  },
- "odometer_km": 42729,
- "polling": "every 30 min while idle; no polling while asleep",
+ "odometer_km": 42741,
+ "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
   "update_version": null,
@@ -59,7 +59,7 @@
  "status": {
   "boot_open": false,
   "charge_port_open": false,
-  "climate_on": false,
+  "climate_on": true,
   "dashcam_on": true,
   "dashcam_state": "Recording",
   "doors": {
@@ -71,8 +71,8 @@
   "frunk_open": false,
   "locked": true,
   "preconditioning": false,
-  "sentry_mode": true,
-  "user_present": false,
+  "sentry_mode": false,
+  "user_present": true,
   "valet_mode": false,
   "windows": {
    "fd": false,
@@ -84,8 +84,8 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 43.9,
-  "fr": 43.5,
+  "fl": 43.5,
+  "fr": 43.1,
   "rl": 43.1,
   "rr": 43.5
  },
