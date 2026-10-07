@@ -1,19 +1,19 @@
 {
  "alerts": [],
  "battery": {
-  "level": 45,
-  "range_km": 230.0,
-  "usable": 45
+  "level": 46,
+  "range_km": 237.0,
+  "usable": 46
  },
  "car_status": "online",
  "charging": {
   "amps": 32,
   "amps_requested": 32,
   "departure_time": "07:30",
-  "energy_added_kwh": 10.88,
-  "finish_time": "2026-10-08T06:17:46+10:00",
+  "energy_added_kwh": 12.0,
+  "finish_time": "2026-10-08T06:17:47+10:00",
   "limit": 67,
-  "minutes_to_full": 155,
+  "minutes_to_full": 145,
   "off_peak_enabled": true,
   "off_peak_times": "all_week",
   "phases": 1,
@@ -25,7 +25,7 @@
   "scheduled_pending": false,
   "scheduled_start": null,
   "state": "Charging",
-  "volts": 228
+  "volts": 229
  },
  "climate": {
   "inside_c": 25.4,
@@ -35,10 +35,10 @@
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-08T03:42:46+10:00",
- "last_checked": "2026-10-08T03:42:44+10:00",
+ "data_as_of": "2026-10-08T03:52:47+10:00",
+ "last_checked": "2026-10-08T03:52:44+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-08T03:42:44+10:00",
+ "last_updated": "2026-10-08T03:52:44+10:00",
  "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
@@ -60,8 +60,8 @@
   "boot_open": false,
   "charge_port_open": true,
   "climate_on": false,
-  "dashcam_on": false,
-  "dashcam_state": "Streaming",
+  "dashcam_on": true,
+  "dashcam_state": "Recording",
   "doors": {
    "df": false,
    "dr": false,
