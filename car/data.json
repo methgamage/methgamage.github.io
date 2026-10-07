@@ -2,7 +2,7 @@
  "alerts": [],
  "battery": {
   "level": 34,
-  "range_km": 173.0,
+  "range_km": 172.0,
   "usable": 34
  },
  "car_status": "online",
@@ -28,17 +28,17 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 23.9,
+  "inside_c": 23.5,
   "on": false,
-  "outside_c": 21.0,
+  "outside_c": 23.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-07T21:27:09+10:00",
- "last_checked": "2026-10-07T21:34:42+10:00",
+ "data_as_of": "2026-10-07T21:57:09+10:00",
+ "last_checked": "2026-10-07T21:57:06+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T21:27:06+10:00",
+ "last_updated": "2026-10-07T21:57:06+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
