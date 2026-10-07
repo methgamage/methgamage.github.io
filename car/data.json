@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 50,
-  "range_km": 254.0,
-  "usable": 50
+  "level": 49,
+  "range_km": 250.0,
+  "usable": 49
  },
  "car_status": "online",
  "charging": {
@@ -30,26 +30,26 @@
  "climate": {
   "inside_c": 21.0,
   "on": true,
-  "outside_c": 21.5,
+  "outside_c": 22.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-07T18:17:09+10:00",
- "last_checked": "2026-10-07T18:17:06+10:00",
+ "data_as_of": "2026-10-07T18:27:08+10:00",
+ "last_checked": "2026-10-07T18:27:06+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T18:17:06+10:00",
+ "last_updated": "2026-10-07T18:27:06+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
   "active": true,
-  "destination": "22 Cornucopia St",
-  "energy_at_arrival_pct": 50,
-  "km_to_arrival": 0.6,
-  "minutes_to_arrival": 2.0
+  "destination": "Gumdale Medical Centre",
+  "energy_at_arrival_pct": 48,
+  "km_to_arrival": 3.3,
+  "minutes_to_arrival": 5.0
  },
- "odometer_km": 42716,
+ "odometer_km": 42719,
  "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
@@ -84,10 +84,10 @@
  "tyre_warnings": [],
  "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 43.9,
+  "fl": 43.5,
   "fr": 43.5,
   "rl": 43.1,
-  "rr": 43.9
+  "rr": 43.5
  },
  "tyres_recommended_psi": {
   "front": 42.0,
