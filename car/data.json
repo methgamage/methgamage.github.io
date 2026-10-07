@@ -1,19 +1,19 @@
 {
  "alerts": [],
  "battery": {
-  "level": 41,
-  "range_km": 209.0,
-  "usable": 41
+  "level": 42,
+  "range_km": 216.0,
+  "usable": 42
  },
  "car_status": "online",
  "charging": {
   "amps": 32,
   "amps_requested": 32,
   "departure_time": "07:30",
-  "energy_added_kwh": 7.48,
+  "energy_added_kwh": 8.58,
   "finish_time": "2026-10-08T06:17:47+10:00",
   "limit": 67,
-  "minutes_to_full": 185,
+  "minutes_to_full": 175,
   "off_peak_enabled": true,
   "off_peak_times": "all_week",
   "phases": 1,
@@ -35,10 +35,10 @@
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-08T03:12:47+10:00",
- "last_checked": "2026-10-08T03:12:44+10:00",
+ "data_as_of": "2026-10-08T03:22:47+10:00",
+ "last_checked": "2026-10-08T03:22:44+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-08T03:12:44+10:00",
+ "last_updated": "2026-10-08T03:22:44+10:00",
  "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
@@ -82,12 +82,12 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": "2026-10-07T22:58:24+10:00",
+ "tyres_as_of": "2026-10-08T03:20:57+10:00",
  "tyres_psi": {
   "fl": 43.1,
   "fr": 43.1,
   "rl": 43.1,
-  "rr": 43.5
+  "rr": 42.8
  },
  "tyres_recommended_psi": {
   "front": 42.0,
