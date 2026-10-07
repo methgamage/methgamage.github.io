@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 60,
-  "range_km": 304.0,
-  "usable": 60
+  "level": 59,
+  "range_km": 303.0,
+  "usable": 59
  },
  "car_status": "online",
  "charging": {
@@ -35,10 +35,10 @@
   "set_c": 20.0,
   "set_passenger_c": 20.0
  },
- "data_as_of": "2026-10-07T12:37:07+10:00",
- "last_checked": "2026-10-07T12:37:04+10:00",
+ "data_as_of": "2026-10-07T12:47:07+10:00",
+ "last_checked": "2026-10-07T12:47:04+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T12:37:04+10:00",
+ "last_updated": "2026-10-07T12:47:04+10:00",
  "location": "At home",
  "model": "Model Y",
  "name": "XEARTH",
@@ -82,7 +82,7 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": "2026-10-07T12:36:37+10:00",
+ "tyres_as_of": "2026-10-07T12:37:07+10:00",
  "tyres_psi": {
   "fl": 45.0,
   "fr": 45.7,
