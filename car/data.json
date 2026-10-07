@@ -1,9 +1,9 @@
 {
  "alerts": [],
  "battery": {
-  "level": 53,
-  "range_km": 269.0,
-  "usable": 53
+  "level": 51,
+  "range_km": 260.0,
+  "usable": 51
  },
  "car_status": "online",
  "charging": {
@@ -28,29 +28,29 @@
   "volts": 2
  },
  "climate": {
-  "inside_c": 26.4,
+  "inside_c": 26.6,
   "on": false,
-  "outside_c": 23.0,
+  "outside_c": 22.0,
   "preconditioning": false,
   "set_c": 21.0,
   "set_passenger_c": 21.0
  },
- "data_as_of": "2026-10-07T17:37:09+10:00",
- "last_checked": "2026-10-07T17:37:06+10:00",
+ "data_as_of": "2026-10-07T18:07:09+10:00",
+ "last_checked": "2026-10-07T18:07:06+10:00",
  "last_seen_online": null,
- "last_updated": "2026-10-07T17:37:06+10:00",
+ "last_updated": "2026-10-07T18:07:06+10:00",
  "location": "Away",
  "model": "Model Y",
  "name": "XEARTH",
  "navigation": {
-  "active": false,
-  "destination": null,
-  "energy_at_arrival_pct": null,
-  "km_to_arrival": null,
-  "minutes_to_arrival": null
+  "active": true,
+  "destination": "15 Sunstone St",
+  "energy_at_arrival_pct": 50,
+  "km_to_arrival": 6.5,
+  "minutes_to_arrival": 9.0
  },
- "odometer_km": 42700,
- "polling": "every 30 min while idle; no polling while asleep",
+ "odometer_km": 42709,
+ "polling": "every 10 min (car active)",
  "software": {
   "update_status": null,
   "update_version": null,
@@ -71,8 +71,8 @@
   "frunk_open": false,
   "locked": true,
   "preconditioning": false,
-  "sentry_mode": true,
-  "user_present": false,
+  "sentry_mode": false,
+  "user_present": true,
   "valet_mode": false,
   "windows": {
    "fd": false,
@@ -82,10 +82,10 @@
   }
  },
  "tyre_warnings": [],
- "tyres_as_of": "2026-10-07T17:35:58+10:00",
+ "tyres_as_of": null,
  "tyres_psi": {
-  "fl": 43.9,
-  "fr": 43.5,
+  "fl": 43.5,
+  "fr": 43.1,
   "rl": 43.1,
   "rr": 43.5
  },
